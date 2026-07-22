@@ -4,6 +4,7 @@ __pycache__/
 .env
 venv/
 .venv/
+.venv-*/
 
 # Large Model Weights & Executables
 llama-bin/
@@ -15,3 +16,6 @@ llama-bin/
 deepseek_r1_painpoints_live.json
 deepseek_r1_sentiment_r_vllm_live.json
 deepseek_r1_sentiment_*.json
+*.stdout.log
+*.stderr.log
+reports/

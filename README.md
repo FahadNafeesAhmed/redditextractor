@@ -1,99 +1,58 @@
-# 🚀 Subreddit Developer Pain Point & SaaS Opportunity Miner
+# Recurring Reddit Pain Point Miner
 
-> **Powered by Local DeepSeek-R1 GPU Inference (CUDA 12.8 / RTX 5060)**  
-> Automatically mine developer pain points, unfulfilled feature requests, and validated SaaS startup opportunities from any subreddit.
+This local research tool finds recurring developer workflow problems in public Reddit RSS discussions. A post or comment is treated as evidence, never as a validated market problem by itself.
 
----
+## Evidence before conclusions
 
-## 📌 Architecture Overview
+The validated workflow has two separate stages:
 
-```mermaid
-graph TD
-    A[Subreddit Target] -->|RSS / Reddit Feed| B[Data Ingestion Engine]
-    B -->|Clean HTML & Sanitize Text| C[Prompt Engineering Module]
-    C -->|HTTP API Request| D[Local llama-server GPU Engine]
-    D -->|DeepSeek-R1-Distill-Qwen-7B| E[NVIDIA RTX 5060 CUDA VRAM]
-    E -->|Chain of Thought Reasoning| D
-    D -->|JSON Response| F[Pain Point & Opportunity Extractor]
-    F -->|Real-time Save| G[Live JSON Progress File]
-    F -->|Aggregation| H[Ranked Startup Report .md & .json]
-```
+1. **Evidence extraction** reviews each post and comment for an explicit, first-hand complaint, impact, and stated workaround. Invalid model output is excluded; it never falls back to keyword matching.
+2. **Cluster validation** groups related evidence and promotes a cluster only after it reaches independent recurrence thresholds.
 
----
+By default, validation requires:
 
-## 🔥 Key Features
+- 3 evidence units
+- 3 independent authors
+- 2 distinct Reddit threads
 
-- **🧠 DeepSeek-R1 Chain-of-Thought:** Uses local DeepSeek-R1 reasoning (`<think>`) to analyze complex technical complaints and extract root-cause developer frustrations.
-- **💸 100% Free & Local:** Runs on local GPU via CUDA `llama-server`. No OpenAI/Claude API subscription fees.
-- **🎯 Any Subreddit Target:** Effortlessly switch between `r/devops`, `r/LocalLLaMA`, `r/LangChain`, `r/webdev`, `r/ecommerce`, etc.
-- **📊 Automatic Categorization & Severity Scoring:** Classifies pain points into categories (*"GPU Memory Leaks"*, *"CI/CD Pipeline"*, *"Boilerplate & Config"*) with severity ratings (*Critical*, *Moderate*, *Minor*).
-- **⚡ Live Progress Streaming:** Outputs live progress updates into `deepseek_r1_painpoints_live.json` after every single post.
+This prevents a single vivid post, or multiple comments under the same post, from becoming a supposedly validated opportunity. Only validated clusters receive a product hypothesis. Everything else is reported as an emerging lead.
 
----
+## Requirements
 
-## 🛠️ Installation & Setup
+- Python 3.10 or later
+- A local OpenAI-compatible llama-server endpoint
+- Python packages: requests and feedparser
 
-### 1. Prerequisites
-- Python 3.10+
-- NVIDIA GPU with 6GB+ VRAM (e.g. RTX 3060, RTX 4060, RTX 5060)
-- PyTorch with CUDA support
+~~~powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install requests feedparser
+~~~
 
-### 2. Clone & Install Dependencies
-```bash
-git clone https://github.com/your-username/subreddit-pain-point-miner.git
-cd subreddit-pain-point-miner
-pip install requests feedparser
-```
+Start your local model server:
 
-### 3. Start Local DeepSeek-R1 GPU Server
-Download the 4-bit quantized GGUF weights (`DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf`) and launch `llama-server.exe`:
+~~~powershell
+.\llama-bin\llama-server.exe -m "path\to\model.gguf" -ngl 99 --port 8080
+~~~
 
-```powershell
-./llama-bin/llama-server.exe -m "path/to/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf" -ngl 99 --port 8080
-```
+## Run the validated pipeline
 
----
+~~~powershell
+python validated_pain_point_miner.py --subreddit LocalLLaMA --limit 50 --comments 5
+~~~
 
-## 🚀 Usage Guide
+Use stricter recurrence thresholds for broader research:
 
-### Run Pain Point Extraction CLI
+~~~powershell
+python validated_pain_point_miner.py --subreddit LocalLLaMA --limit 100 --comments 5 --min-evidence 4 --min-authors 4 --min-threads 3
+~~~
 
-```bash
-# Mine 100 latest posts from r/devops
-python pain_point_miner.py --subreddit devops --limit 100 --comments 5
+## Output
 
-# Mine 50 latest posts from r/LocalLLaMA
-python pain_point_miner.py --subreddit LocalLLaMA --limit 50 --comments 5
+Generated files are written to reports:
 
-# Mine hot posts from r/LangChain
-python pain_point_miner.py --subreddit LangChain --limit 50 --sort hot
-```
+- reddit_pain_evidence_live.json shows collection status without premature validation.
+- validated_pain_clusters_r_<subreddit>_<timestamp>.json contains the audit trail, evidence, policy, and clusters.
+- validated_opportunities_r_<subreddit>_<timestamp>.md distinguishes validated clusters from unvalidated leads.
 
----
-
-## 🧠 Prompt Engineering Strategy
-
-DeepSeek-R1 is prompted with a specialized **SaaS Venture Capitalist & Developer Tooling Researcher** persona:
-
-```json
-{
-  "has_pain_point": true,
-  "pain_category": "CI/CD & Security",
-  "problem_statement": "Agents in CI/CD pipelines access sensitive secrets prior to redaction.",
-  "severity": "Critical",
-  "startup_opportunity": "An inline secret redaction proxy for CI/CD runners before agent execution."
-}
-```
-
----
-
-## 📄 Output Reports
-
-All generated reports are saved automatically to the `reports/` folder:
-- **Markdown Report (`.md`):** Executive summary, category breakdown matrix, and ranked startup ideas.
-- **JSON Data Export (`.json`):** Machine-readable structured database of all analyzed discussions.
-
----
-
-## 📄 License
-Apache 2.0 License. Free to use for personal and commercial SaaS research.
+Generated reports and local virtual environments are ignored by Git.
