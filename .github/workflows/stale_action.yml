@@ -4,7 +4,7 @@ jobs:
     permissions:
       issues: write # required to comment on and close stale issues
       pull-requests: write # required to comment on and close stale PRs
-    uses: praw-dev/.github/.github/workflows/stale_action.yml@ec3a733628adc5bd596def5294dae9fb4eb1e501 # v1.6.0
+    uses: praw-dev/.github/.github/workflows/stale_action.yml@68c4e3402dc6c829ac9a1a787a663baabd21388b # v1.7.0
 name: Close stale issues and PRs
 on:
   schedule:
