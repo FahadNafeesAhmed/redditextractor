@@ -1,0 +1,2149 @@
+{
+  "subreddit": "vllm",
+  "model": "DeepSeek-R1-Distill-Qwen-7B-Q4_K_M",
+  "analyzed_at": "2026-07-22T16:33:15.954172",
+  "summary": {
+    "total_analyzed": 117,
+    "pain_points": 15
+  },
+  "pain_points_found": [
+    {
+      "type": "post",
+      "title": "I built Rondine: a hardware-aware local LLM launcher for Mac, NVIDIA GPUs, and DGX Spark",
+      "author": "Neat-Function7110",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v3bpfq/i_built_rondine_a_hardwareaware_local_llm/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"Optimizing performance of machine learning models across different hardware configurations.\",\n  \"severity\": \"Moderate\",\n  \"startup_opportunity\": \"A SaaS product that suggests optimal hardware configuratio",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "Your LLM inference benchmark is lying to you",
+      "author": "OfficialLeadDev",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v3aeyk/your_llm_inference_benchmark_is_lying_to_you/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Model Performance & Reliability",
+        "problem_statement": "The LLM inference benchmark is misleading, causing false positives in model performance.",
+        "severity": "Moderate",
+        "startup_opportunity": "An LLM performance monitoring tool that accurately measures model capabilities to prevent misleading results.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "Does vllm *need* a restart once in a while?",
+      "author": "nunodonato",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v1vep2/does_vllm_need_a_restart_once_in_a_while/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Long Running Sessions & Memory\",\n  \"problem_statement\": \"The user",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "Speculative Decoding Explained",
+      "author": "RelevantEmergency707",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uzwzew/speculative_decoding_explained/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"Developers seeking tools to",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "Help me understand max_num_seqs",
+      "author": "nunodonato",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uy9sl7/help_me_understand_max_num_seqs/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\":",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "Getting Qwen3.6-27B-FP8 to 26.5 tok/s on 2× AMD Radeon AI PRO R9700 (RDNA4)",
+      "author": "Fair-Telephone1265",
+      "url": "https://www.reddit.com/r/Vllm/comments/1urcv82/getting_qwen3627bfp8_to_265_toks_on_2_amd_radeon/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": null,\n  \"problem_statement\": null,\n  \"",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "V100 Volta SM70 vLLM in 2026",
+      "author": "kumphanartd",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uihne7/v100_volta_sm70_vllm_in_2026/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": \"\",\n  \"problem",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "Best VQA Model?",
+      "author": "_Med_br_",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ui3b3u/best_vqa_model/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": null,\n  \"problem_statement\": null,\n  \"severity\": null,",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "CPU overhead in vLLM",
+      "author": "Medical_Meet2089",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ucdjb4/cpu_overhead_in_vllm/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"The user couldn't find recent data on CPU overhead in vLLM, suggesting a gap in current understanding or availability of recent performance breakdowns.\",\n  \"severity\": \"Moderate\",\n  \"startup_opportunity\":",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "I got tired of not understanding how vLLM works under the hood, so I built my own mini inference engine from scratch.",
+      "author": "Top-Ear-1161",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uab7jj/i_got_tired_of_not_understanding_how_vllm_works/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\":",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "470 tok/s with 8192 ctx size for Qwen3.6-27B on A100-80GB using Profile",
+      "author": "Inevitable-Diet-1870",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u9qfsb/470_toks_with_8192_ctx_size_for_qwen3627b_on/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": \"\",\n  \"problem_statement\": \"\",\n  \"severity\": \"\",\n  \"startup_op",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "vLLM vs llama.cpp vs olama",
+      "author": "Outrageous-Nobody-87",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u6kgck/vllm_vs_llamacpp_vs_olama/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"The developer is experiencing high resource usage and slow performance when running AI models on their budget hardware setup.\",\n  \"severity\": \"Moderate\",",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "comment",
+      "title": "Comment on: vLLM vs llama.cpp vs olama",
+      "author": "M4A3E2APFSDS",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u6kgck/vllm_vs_llamacpp_vs_olama/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Boilerplate & Config\",\n  \"problem_statement\": \"The developer is",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "comment",
+      "title": "Comment on: vLLM vs llama.cpp vs olama",
+      "author": "yeah_likerage",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u6kgck/vllm_vs_llamacpp_vs_olama/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Concurrency & Scheduling\",\n  \"problem_statement\": \"The developer is",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    },
+    {
+      "type": "post",
+      "title": "How are you handling LLM model distribution in Kubernetes clusters?",
+      "author": "Electronic_Role_5981",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u3il80/how_are_you_handling_llm_model_distribution_in/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"Distributing large language models in Kubernetes clusters presents challenges in terms of performance and scalability.\",\n  \"severity\": \"Critical\",\n  \"startup_opportunity\": \"A SaaS tool that assists in man",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      }
+    }
+  ],
+  "posts": [
+    {
+      "post_id": "t3_1v3bpfq",
+      "title": "I built Rondine: a hardware-aware local LLM launcher for Mac, NVIDIA GPUs, and DGX Spark",
+      "author": "Neat-Function7110",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v3bpfq/i_built_rondine_a_hardwareaware_local_llm/",
+      "selftext": "submitted by /u/Neat-Function7110 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v3bpfq/i_built_rondine_a_hardwareaware_local_llm/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"Optimizing performance of machine learning models across different hardware configurations.\",\n  \"severity\": \"Moderate\",\n  \"startup_opportunity\": \"A SaaS product that suggests optimal hardware configuratio",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1v3aeyk",
+      "title": "Your LLM inference benchmark is lying to you",
+      "author": "OfficialLeadDev",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v3aeyk/your_llm_inference_benchmark_is_lying_to_you/",
+      "selftext": "submitted by /u/OfficialLeadDev [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v3aeyk/your_llm_inference_benchmark_is_lying_to_you/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Model Performance & Reliability",
+        "problem_statement": "The LLM inference benchmark is misleading, causing false positives in model performance.",
+        "severity": "Moderate",
+        "startup_opportunity": "An LLM performance monitoring tool that accurately measures model capabilities to prevent misleading results.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1v2yryg",
+      "title": "Created vLLM Breath monitor like bTOP",
+      "author": "EmergencyFly476",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v2yryg/created_vllm_breath_monitor_like_btop/",
+      "selftext": "submitted by /u/EmergencyFly476 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v2yryg/created_vllm_breath_monitor_like_btop/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1v2uhi9",
+      "title": "Mac | Cubix | V620 | Ubuntu | ROCm | vLLM | Local AI Data Center",
+      "author": "Faisal_Biyari",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v2uhi9/mac_cubix_v620_ubuntu_rocm_vllm_local_ai_data/",
+      "selftext": "submitted by /u/Faisal_Biyari [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v2uhi9/mac_cubix_v620_ubuntu_rocm_vllm_local_ai_data/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1v2rsdn",
+      "title": "DS V4 on single b300. only 770 tok/s batched in vLLM",
+      "author": "Moreh",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v2rsdn/ds_v4_on_single_b300_only_770_toks_batched_in_vllm/",
+      "selftext": "Been running DeepSeek-V4-Flash for an offline batch job (cleaning a big pile of short text records, so lots of small prompts rather than chat). Single B300, vLLM 0.25.0, in-process LLM.chat over the batch. Reasoning on, roughly 300 output tokens per item. Best I can get so far is about 770 aggregate output tok/s at batch 256. That feels low for a B300, I was expecting a few thousand, so I assume I have something misconfigured and wanted to sanity check with people who actually run this. A few things I already found the hard way: - deep_gemm_mega_moe hard errors on a single GPU (\"MegaMoE requires expert parallel\"), so the fast MoE kernel seems to want multiple GPUs. I fell back to flashinfer_trtllm. - Dropping DSpark speculative decoding roughly doubled my throughput. On a saturated batch it seems to just add overhead, which sort of makes sense, but I want to confirm that is expected and not a bug on my end. - I suspect the V4 sparse MLA attention path might be running eager (no cuda graphs) and capping things, but I have not confirmed it. Rough config: model: DeepSeek-V4-Flash (base, no DSpark) tensor_parallel_size: 1 kv_cache_dtype: fp8 block_size: 256 max_num_seqs: 256 enable_prefix_caching: true moe_backend: flashinfer_trtllm reasoning_parser: deepseek_v4 attention_config: use_fp4_indexer_cache=true compilation_config: cudagraph_mode=FULL_AND_PIECEWISE Questions for anyone running V4 Flash: What tok/s are you actually getting, single stream and batched, and on what GPU? What MoE backend are you using on a single GPU? Is there a fast one that does not need expert parallel? Is the sparse MLA path supposed to use cuda graphs by default, or is there a flag or env var to turn it on? (I saw something about VLLM_TRITON_MLA_SPARSE_ALLOW_CUDAGRAPH but am not sure it is real.) Anything obviously wrong or missing in the config above? Happy to report numbers back once I get it sorted. Thanks. submitted by /u/Moreh [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v2rsdn/ds_v4_on_single_b300_only_770_toks_batched_in_vllm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1v25lj9",
+      "title": "Just learned (the hard way) that long-running vllm can accumulate POISONED prefix-cache/MTP state: tool calls derail into mask-token/XML garbage for specific prompt prefixes while other prompts stay clean.",
+      "author": "Afraid-Yoghurt6731",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v25lj9/just_learned_the_hard_way_that_longrunning_vllm/",
+      "selftext": "submitted by /u/Afraid-Yoghurt6731 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v25lj9/just_learned_the_hard_way_that_longrunning_vllm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1v22mf6",
+      "title": "Has anyone used vLLM in a Kaggle notebook?",
+      "author": "Mysterious-Rope-6216",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v22mf6/has_anyone_used_vllm_in_a_kaggle_notebook/",
+      "selftext": "Hey all. I'm at my wits end struggling with configuring vLLM inside Kaggle for an experiment on KV Cache behaviour. please advise if you have experience. Quick Context: vLLM is the inference runtime that will load the model, manage GPU workers and expose the KV-cache behavior needed for the experiment. Issue: I’m using Kaggle’s GPUs to run vLLM so I can test how my AI gateway loads the model, routes requests, and reuses cache. The problem is that vLLM, PyTorch, CUDA, and their dependencies are not lining up properly, and the setup keeps failing on compatibility issues and blocked package download sources before the model can run. I've been debugging over a week and I keep experiencing issues deeper, but it's still frustrating submitted by /u/Mysterious-Rope-6216 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v22mf6/has_anyone_used_vllm_in_a_kaggle_notebook/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": [
+        {
+          "comment_id": "t1_oytzmel",
+          "author": "1102dark1102",
+          "body": "Is that what you want? https://www.kaggle.com/code/hoangnguyen1102/lam-thi-nghiem-proj1/edit",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_oyubhl1",
+          "author": "Mysterious-Rope-6216",
+          "body": "Let me have a look, thanks.",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "",
+            "problem_statement": "",
+            "severity": "",
+            "startup_opportunity": "",
+            "reasoning": ""
+          }
+        }
+      ]
+    },
+    {
+      "post_id": "t3_1v1vep2",
+      "title": "Does vllm *need* a restart once in a while?",
+      "author": "nunodonato",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v1vep2/does_vllm_need_a_restart_once_in_a_while/",
+      "selftext": "Out of the blues I started getting replies from the agent that completely broke tool parsing. Like <read\", \"path\": \"/home/agent/.agents/skills/research/SKILL.md\"} {\"path\": \"/home/agent/.agents/skills/research/SKILL.md\"} </read> I checked all my code and made sure nothing I did today could have impacted this. No changes in version, nothing. But try after try, it just kept outputting this kind of garbage. Out of desperation, I shutdown vllm and turned it back on. Lo and behold, it works like a charm again. So now I'm really confused, are we supposed to refresh vllm once in a while? Could long running sessions corrupt memory in a way that harm the way it works? submitted by /u/nunodonato [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v1vep2/does_vllm_need_a_restart_once_in_a_while/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Long Running Sessions & Memory\",\n  \"problem_statement\": \"The user",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1v0num1",
+      "title": "Byte exact KV cache grafting on frozen Gemma 4",
+      "author": "MindPsychological140",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v0num1/byte_exact_kv_cache_grafting_on_frozen_gemma_4/",
+      "selftext": "submitted by /u/MindPsychological140 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v0num1/byte_exact_kv_cache_grafting_on_frozen_gemma_4/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1v03nxz",
+      "title": "I benchmarked N-gram, MTP, EAGLE3, and DFlash speculative decoding on Qwen3.5-122B on Single DGX Spark",
+      "author": "kristiyanstoyanovAI",
+      "url": "https://www.reddit.com/r/Vllm/comments/1v03nxz/i_benchmarked_ngram_mtp_eagle3_and_dflash/",
+      "selftext": "submitted by /u/kristiyanstoyanovAI [link] [comments]",
+      "permalink": "/r/Vllm/comments/1v03nxz/i_benchmarked_ngram_mtp_eagle3_and_dflash/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uzwzew",
+      "title": "Speculative Decoding Explained",
+      "author": "RelevantEmergency707",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uzwzew/speculative_decoding_explained/",
+      "selftext": "submitted by /u/RelevantEmergency707 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uzwzew/speculative_decoding_explained/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"Developers seeking tools to",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uzu52r",
+      "title": "Scaling my LLM inference for reply suggestions using disaggregated prefill",
+      "author": "Hairy_Goose9089",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uzu52r/scaling_my_llm_inference_for_reply_suggestions/",
+      "selftext": "submitted by /u/Hairy_Goose9089 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uzu52r/scaling_my_llm_inference_for_reply_suggestions/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uzq6wx",
+      "title": "Built a free 8-part course explaining modern LLM serving.",
+      "author": "mostaptname",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uzq6wx/built_a_free_8part_course_explaining_modern_llm/",
+      "selftext": "A little while ago I shared my KV Cache explainer here, and the response from this community was better than I expected. I made a free 8-part playlist covering the core ideas behind modern LLM serving: Topics Covered: Continuous batching KV Cache & PagedAttention Quantization Speculative decoding Prefill/decode disaggregation LLM routing and SLOs Here's the link: https://www.youtube.com/playlist?list=PLSUJw2P2IzUU If you spot something inaccurate or think a concept could be explained better, let me know P.S. If you find the videos useful, please consider subscribing. It would genuinely mean a lot. Now I'm off to finally play some RDR2 submitted by /u/mostaptname [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uzq6wx/built_a_free_8part_course_explaining_modern_llm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_p",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uz0ao5",
+      "title": "HGX200 - GLM5.2",
+      "author": "Some-Manufacturer-21",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uz0ao5/hgx200_glm52/",
+      "selftext": "My company is getting a single HGX H200 node with 8× H200 GPUs, and we’re planning to serve GLM-5.2 using vLLM. Since the hardware has already been purchased, no budget was allocated for renting an equivalent cloud system for testing beforehand. I’m therefore looking for real-world performance data from anyone running GLM-5.2 on similar hardware with vLLM. I’m particularly interested in: - Maximum practical concurrency at 128K, 256K, 512K, and up to 1M context - Aggregate throughput in tokens per second - Per-user generation speed at different concurrency levels - TTFT and inter-token latency - KV-cache memory usage at each context size - Performance with FP8 KV cache - The impact of prefix caching - The effect of TP=8 compared with other vLLM configurations - Any experience with disaggregated prefill or KV-cache offloading Even partial benchmark results would be very helpful. I’m mainly trying to estimate realistic concurrency and throughput rather than theoretical maximums. submitted by /u/Some-Manufacturer-21 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uz0ao5/hgx200_glm52/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uyau9r",
+      "title": "My organisation ditch ollama as a backend ai engine in which I used to run embedding model. Now they say use vllm, but vllm requires linux - company provides me IP also to access linux and use vllm via puTTy, could you guys help me that how to use model via vllm and get endpoint. Do I need to open 2",
+      "author": "ash_pix",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uyau9r/my_organisation_ditch_ollama_as_a_backend_ai/",
+      "selftext": "2 puTTy windows - one for serving the model and one for starting my fastapi application to get an endpoint api? submitted by /u/ash_pix [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uyau9r/my_organisation_ditch_ollama_as_a_backend_ai/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uy9sl7",
+      "title": "Help me understand max_num_seqs",
+      "author": "nunodonato",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uy9sl7/help_me_understand_max_num_seqs/",
+      "selftext": "Hi all I've been a bit confused on how to better tune max_num_seqs When my vllm starts and loads the model it give me the max nr of requests at full context (usually around 12) If I exceed this number, they go into waiting, and I see that in the logs. So what is max_num_seqs used for? Is there any reason why we would set this value to be lower than the max requests vllm can handle? thanks submitted by /u/nunodonato [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uy9sl7/help_me_understand_max_num_seqs/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\":",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uxxvfs",
+      "title": "303m parameter assistant model from scratch on local hardware",
+      "author": "nkthebass",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uxxvfs/303m_parameter_assistant_model_from_scratch_on/",
+      "selftext": "I trained a coherent assistant LLM completely from scratch on my own PC — TinyBrainBot-303M-Instruct Hello, I've been messing with local AI for almost a year now, alongside a bunch of other projects, but my main goal the whole time has been to build a coherent assistant model entirely from scratch on my own hardware (2× Tesla P100). took like 300 hours but I'm done finally. TinyBrainBot-303M-Instruct is a dense decoder-only transformer (LLaMA-style — RoPE, RMSNorm, SwiGLU): 303M params — 32k vocab, 1024 hidden, 24 layers, 16 heads (4 KV heads / GQA), 2816 FFN, 1024 context It was pretrained on ~4.7B tokens of assorted data — FineWeb-Edu (10BT), English Wikipedia, Orca-Math-200k, OpenWebText2, and several distillation datasets I generated with Ling-2.6-Flash — then SFT'd on ~120M tokens including Dolly-15k, SmolTalk, UltraChat-200k, and more custom distillation sets. The goal was a semi-coherent assistant with reasonable factual recall , and it got there. A few real examples (best of 5 samples, temperature tuned per prompt): Q: What is the largest planet in the solar system? Jupiter. Q: Explain what photosynthesis is in one or two simple sentences. Photosynthesis is how plants use sunlight, water, and air to make food (glucose) and release oxygen. It occurs in many types like green plants, algae, and trees. Q: Write a short poem about the moon. Silver moon, slow and gold, hums low over the sleeping sky. It dreams in silver rivers, guarding dreams in morning light. Q: List three healthy breakfast ideas. Greek yogurt with berries, whole wheat bread, cream cheese. Q: Give me one tip for staying focused while studying. Use 25-minute focus blocks with 5-minute breaks, silence notifications, and a clear workspace to keep your mind fresh. It's LLaMA-architecture, so it runs in llama.cpp / anything GGUF (F16 GGUF is up on the repo). Would love to hear your thoughts! 🔗 https://huggingface.co/nkthebass/TinyBrainBot-303m-instruct submitted by /u/nkthebass [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uxxvfs/303m_parameter_assistant_model_from_scratch_on/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uwp8lc",
+      "title": "I asked Fable to add qwen3.6 gguf, MoE and MTP support",
+      "author": "yes_i_tried_google",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uwp8lc/i_asked_fable_to_add_qwen36_gguf_moe_and_mtp/",
+      "selftext": "It took Fable all day, and I can’t say I’ve looked at the code much atm or, heck, that i even understand vllm enough to know what I’m looking at. However, what I do know is, Fable borrowed code from llama.cpp, I’m now using my own IQ4 quants for 27b and 35b, and it’s all working great!! Before I wouldn’t have been able to run 35b with vllm, and AWQ 27b was at 89k context. Now I can not only run 35b, but at 245k ctx (196k for 27b) with (more importantly) all the batch support from vllm. Same IQ4_XS GGUFs, same 3090 Ti @350W, single stream: ik_llama.cpp base ik_llama MTP vLLM (ours) base vLLM MTP k=1 vLLM ctx configured **27B** 48 79 44.0 **64.4** **192k** **35B-A3B** 120 ~200 (n_max=2: 198.7) 179.6 **203.6** **245k** Got a couple more performance enhancements but here’s the repo if anyone wanted to take a look. I was going to PR it, but felt ‘dirty’ doing that when I don’t even know what Fable has done and I don’t have the hw to test larger quants. https://github.com/localweights/vllm-gguf-plugin submitted by /u/yes_i_tried_google [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uwp8lc/i_asked_fable_to_add_qwen36_gguf_moe_and_mtp/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uw71kp",
+      "title": "How are you handling KV Cache sharing for multi-agent workflows? (Built a zero-copy gateway for vLLM, looking for architecture feedback)",
+      "author": "MysteriousTourist23",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uw71kp/how_are_you_handling_kv_cache_sharing_for/",
+      "selftext": "Hey everyone, I’ve been building multi-agent collaborative workflows recently (specifically, running sequential AI legal and financial audits over 200-page contracts). I hit a massive wall with VRAM and Time-to-First-Token (TTFT) latency. Under standard vLLM, if Agent A reads the contract, and Agent B follows up on the exact same text, Agent B is forced to repeat the expensive cold-prefill phase and duplicate GPU block allocations. To bypass this, I spent the last few weeks building an open-source gateway to stitch caches at the memory level. How I’m currently doing it: Topological Hashing: Segmenting prompts into physical block-sizes and mapping them to cryptographic fingerprints (Merkle-chains). Zero-Copy Block Stitching: Bypassing prefill for matched prefixes by mapping the logical attention table of Agent B directly to the physical GPU memory address of Agent A's cache blocks. Zero-Trust Gate: Enforcing boundary control lists so unauthorized agent sessions (e.g., a public PR agent vs. an internal Legal agent) cannot access shared physical blocks. In my local benchmarks against standard vLLM cold-prefills on a shared long context, it cuts TTFT from ~1200ms to 48ms (25x speedup) and saves about ~43% VRAM. I know solutions like LMCache exist for cluster-wide storage hierarchy (saving/loading to Redis/CPU), but I needed something that strictly avoids tensor serialization and copy overhead for local, multi-turn reasoning workflows. I open-sourced the code here if anyone wants to look at the implementation: https://github.com/DaqulaLin/MemStitch My questions for the community: Are there edge cases with PagedAttention pointer-sharing that might cause memory leaks here? How are you all currently handling context sharing when orchestrating tools like LangGraph with vLLM? Would love any harsh architectural critiques or ideas for improvement. Cheers! ⚡ TTFT Prefill Latency (Agent B Response Time) — Lower is better Baseline (vLLM Cold): ██████████████████████████████ 1200 ms Context-Stitcher: █ 48 ms ( 25.0x Prefill Speedup! 🚀 ) 💾 GPU Physical Cache Blocks Allocated (Total VRAM) — Lower is better Baseline (vLLM Cold): ██████████████████████████████ 53 blocks (No sharing) Context-Stitcher: ████████████████ 30 blocks ( 43.4% Memory Saved! 📉 ) submitted by /u/MysteriousTourist23 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uw71kp/how_are_you_handling_kv_cache_sharing_for/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uvtxvu",
+      "title": "What LLM can I run?",
+      "author": "ferargie",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uvtxvu/what_llm_can_i_run/",
+      "selftext": "What u say? submitted by /u/ferargie [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uvtxvu/what_llm_can_i_run/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uvh7bi",
+      "title": "KV Cache Explained | Why LLM Inference Eats GPU Memory, and the OS Trick That Fixed It",
+      "author": "mostaptname",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uvh7bi/kv_cache_explained_why_llm_inference_eats_gpu/",
+      "selftext": "One thing that surprised me while learning inference systems is how many operating system concepts show up in GPU memory management. PagedAttention is basically applying ideas like virtual memory and copy-on-write to the KV Cache, which is why engines like vLLM can dramatically increase throughput. I made a visual lecture explaining: KV Cache Why inference becomes memory-bound PagedAttention Copy-on-Write Continuous batching submitted by /u/mostaptname [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uvh7bi/kv_cache_explained_why_llm_inference_eats_gpu/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uuyf1w",
+      "title": "Decision for LLM Model and GPU for production deployment",
+      "author": "Broad_Breakfast_1172",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uuyf1w/decision_for_llm_model_and_gpu_for_production/",
+      "selftext": "submitted by /u/Broad_Breakfast_1172 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uuyf1w/decision_for_llm_model_and_gpu_for_production/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "",
+        "problem_statement": "",
+        "severity": "",
+        "startup_opportunity": "",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uuiixl",
+      "title": "heterogeneous tensor parallelism for mismatched GPUs + gguf support",
+      "author": "Difficult_Tip_6669",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uuiixl/heterogeneous_tensor_parallelism_for_mismatched/",
+      "selftext": "shvllm: a vLLM fork for mismatched GPUs — heterogeneous tensor parallelism, GGUF + MTP speculative decoding, 1M-token KV pool on 72 GB of mixed consumer cards TL;DR: I've been running Qwen3.6-27B across an RTX 5090 (32 GB) + 2x RTX 3080 (20 GB) — three different cards, PCIe only, no NVLink, no P2P — at 86-97 tok/s multiturn decode with a 1,037,653-token KV pool (verified with 4 concurrent ~250k-context sessions, zero preemptions). Stock vLLM can't do TP=3 on this model at all (24 q-heads / 4 kv-heads aren't divisible by 3), and even where TP works it sizes everything to the smallest card. The fork fixes both, and a companion plugin adds full GGUF support with MTP speculative decoding. Repos: Fork: https://github.com/efschu/shvllm (branch feature/htccl has everything) GGUF plugin: https://github.com/efschu/vllm-gguf-plugin (branch qwen35-support ) Docker: ghcr.io/efschu/shvllm-qwen35-gguf:cu129-uneven What it actually does 1. Explicit rank placement - --rank-gpu-id / --rank-gpu-memory-mib Pin each TP rank to a physical GPU (duplicates = co-locate several ranks on one card, NCCL 2.30+) and give each rank an absolute MiB budget instead of a global utilization fraction. The MiB value is the rank's entire budget - no hidden safety margins, no \"fraction of total or free?\" ambiguity. Fail-fast validation against NVML totals instead of a late NCCL hang. 2. Uneven tensor parallelism - --rank-tp-ratio auto (the main event) Instead of total / tp_size , every sharded dimension is partitioned by a per-rank weight vector using prefix-sum offsets. auto derives the weights from each card's real free VRAM (via NVML, reserve configurable per GPU). The 5090 gets about 2x the heads/columns of each 3080, so the big card actually pulls its weight - and TP=3 becomes possible on models whose head counts don't divide evenly. Head/group-granular splitting (whole GQA groups, whole GDN units per rank), vocab stays even via lcm padding, MTP head sharding follows automatically. 3. Self-calibrating KV split KV cache is token-split across ranks proportional to measured free memory. First boot logs a calibration line ( VLLM_UNEVEN_TOKEN_VECTOR=... ); set it and the pool redistributes. On my box that took the pool from 591k to 1,037,653 tokens (+75%) at 262k max context. There's also a consolidated one-line autotune ( VLLM_SHVLLM_TUNE=... ) that captures link-bandwidth calibration plus KV vector in one copy-paste env. 4. GGUF support with MTP speculative decoding (plugin) Q4_K_M / Q5_K_M / Q6_K / Q8_0 load and shard unevenly (K-quant family units), with the model's native MTP head for spec decoding - something llama.cpp can't use at all. Decode-path MMQ/MMVQ kernels got real work: batched MMVQ, small-batch tiles with occupancy-based dispatch, cp.async raw-block staging on Ampere (bit-identical outputs, -10% on the latency-bound down_proj, +5% e2e). 5. HTCCL (bonus, experimental) A vendor-neutral collectives layer (host-staged, CUDA-graph-capturable, per-link bandwidth-weighted) that reaches NCCL parity end-to-end on P2P-less hardware. It exists so a future NVIDIA+AMD mixed box can run one TP group; on pure-NVIDIA setups just use NCCL. Measured numbers (Qwen3.6-27B, 5090 + 2x 3080, TP=3 uneven, PCIe, no P2P) Model / config Prefill @23k ctx Decode (code) Multiturn decode @24k FP8 (k=3 MTP) ~1,060 t/s 87 t/s 86-97 t/s GGUF Q6_K (k=5 MTP) 1,069 t/s 68 t/s 77-86 t/s GGUF Q4_K_M (k=5 MTP) 1,070 t/s 68 t/s 72-87 t/s Quality gates on every config: greedy cold/warm bit-identical, degeneration checks clean, MTP acceptance about 2.8-3.4 tokens/step. Head-to-head vs llama.cpp (same unsloth Q6_K file, same two 3080s, current master): Mode llama.cpp -sm layer llama.cpp -sm tensor shvllm TP=2 single-stream decode, no spec 28.7 t/s 44.0 t/s 43.2 t/s decode with MTP n/a n/a 48-66 t/s At plain B=1 we're at parity with llama.cpp's best mode (within 2%); MTP - which needs the checkpoint's native draft head that GGUF conversions usually strip and llama.cpp doesn't support - puts the fork 10-50% ahead. The long-context concurrency story (a real paged KV pool with prefix caching across 1M tokens) has no llama.cpp equivalent. Concurrency proof: 4 parallel sessions x about 233k unique context each (933k resident tokens), running=4 throughout, zero preemptions, 89% peak pool usage. Example: FP8 Qwen3.6-27B on three mismatched cards bash python3 -m vllm.entrypoints.openai.api_server \\ --model /models/Qwen3.6-27B-FP8 \\ --served-model-name qwen3.6-27b \\ --tensor-parallel-size 3 \\ --rank-gpu-id 0,1,2 \\ --rank-tp-ratio auto \\ --rank-auto-reserve-mib 2048 \\ --max-model-len -1 \\ --max-num-seqs 8 \\ --max-num-batched-tokens 4096 \\ --kv-cache-dtype fp8 \\ --quantization fp8 \\ --dtype bfloat16 \\ --trust-remote-code \\ --enable-prefix-caching \\ --enable-chunked-prefill \\ --speculative-config '{\"method\":\"mtp\",\"num_speculative_tokens\":3}' \\ --mamba-cache-mode align \\ --port 8000 That's it - auto measures your cards and derives the shard ratio plus memory budgets. First boot prints a VLLM_UNEVEN_TOKEN_VECTOR=... suggestion; export it and restart to unlock the full KV pool. GPU indices are CUDA enumeration order (fastest-first), and duplicates like --rank-gpu-id 0,0,1 co-locate two ranks on GPU 0 if it has the headroom. Docker equivalent: bash docker run --gpus all -p 8000:8000 \\ -v /path/to/models:/root/.cache/huggingface \\ ghcr.io/efschu/shvllm-qwen35-gguf:cu129-uneven \\ --model /root/.cache/huggingface/Qwen3.6-27B-FP8 \\ --tensor-parallel-size 3 --rank-gpu-id 0,1,2 --rank-tp-ratio auto \\ --kv-cache-dtype fp8 --max-model-len -1 --trust-remote-code \\ --enable-prefix-caching --enable-chunked-prefill \\ --speculative-config '{\"method\":\"mtp\",\"num_speculative_tokens\":3}' \\ --mamba-cache-mode align For GGUF, point --model at the .gguf file (config.json sidecars next to it), keep --quantization off, and bump MTP to num_speculative_tokens: 5 - the batched kernels make the longer draft chain nearly free. Honest limitations Pure single-node TP only - no PP/DP/EP combinations (it aborts loudly rather than doing something subtly wrong). Every sharded dimension must be partitionable in whole units (heads/groups); models with fewer kv-heads than the smallest rank share are rejected. LoRA and a few exotic quant paths aren't wired up for uneven splits. This is a hobbyist fork moving fast; expect rough edges. Benchmarks above are from my box - mixed-GPU results depend heavily on your PCIe topology. Happy to answer questions, and if you have a 3090+3080-class mixed setup I'd love to hear your numbers. submitted by /u/Difficult_Tip_6669 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uuiixl/heterogeneous_tensor_parallelism_for_mismatched/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uufsy6",
+      "title": "v0.25.0 and running FP8 MoE models on ROCm builds",
+      "author": "GuitarEC",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uufsy6/v0250_and_running_fp8_moe_models_on_rocm_builds/",
+      "selftext": "I'm currently running vLLM on a local AI server for use with Hermes-Agent (Hermes and Ollama were not happy together). My AI server is a GekTec EVO-X2 (AMD Ryzen AI Max+ 395 with Radeon 8060S - 128GB \"unified\" RAM (configured with 32GB system RAM and 96GB VRAM via BIOS). It took me a good long while to get vLLM to run via Docker, but I have it currently running Gemma 4 26B (Abliterated) in about 70GB of VRAM. I've previously tried getting Qwen 3.6 35B MoE running with an FP8 quant, but vLLM crashes before even pulling the safetensors from the repo, giving a \"NotImplementedError: No FP8 MoE backend...\" error while reviewing the logs. I'd prefer not to waste an afternoon struggling with this, so I'll ask plainly - has anyone been able to get the ROCm builds of vLLM to pull and run FP8 MoE models within a Docker container? And if so, what did your docker-compose.yml file entries look like? submitted by /u/GuitarEC [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uufsy6/v0250_and_running_fp8_moe_models_on_rocm_builds/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uu9jog",
+      "title": "I trained a 200M Mixture-of-Experts language model (90M active) from scratch on 8B tokens at 15. I'd love some feedback.",
+      "author": "Odd-Ship226",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uu9jog/i_trained_a_200m_mixtureofexperts_language_model/",
+      "selftext": "Hi everyone, Over the past several months, I've been working on * *Tiny-MoE*\\ *, a language model that I built and trained from scratch as a learning project. I'm 15 years old, and my goal wasn't to compete with models like Llama or Qwen, but to understand how modern LLMs work by implementing the entire pipeline myself. Some highlights: 200M parameter Mixture-of-Experts model (~90M active parameters per token) Trained from scratch on * *8 billion tokens*\\ * Native PyTorch implementation (not built on Hugging Face Transformers) Multi-Head Latent Attention (MLA) RoPE + YaRN positional embeddings Streaming and packed data pipeline Custom training and inference code Text generation with Top-k, Top-p, repetition penalty, and n-gram blocking * *Training datasets:*\\ * FineWeb-Edu Cosmopedia v2 OpenWebMath The model is definitely * *not state-of-the-art*\\ *. It can generate English, answer simple questions, and perform basic coding and math tasks, but it still struggles with longer generations. Given the model size and the compute available to me (primarily Kaggle GPUs), I'm happy with it as a learning project. I'd really appreciate feedback on: Code quality Project structure Model architecture Training pipeline Documentation Anything else you think could be improved GitHub: https://github.com/AbdelrhmanEbied/Tiny-MoE submitted by /u/Odd-Ship226 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uu9jog/i_trained_a_200m_mixtureofexperts_language_model/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1utqjuu",
+      "title": "[Patch] vLLM INT8 KV Cache Support for Ampere (SM80) GPUs",
+      "author": "3dluvr",
+      "url": "https://www.reddit.com/r/Vllm/comments/1utqjuu/patch_vllm_int8_kv_cache_support_for_ampere_sm80/",
+      "selftext": "Long-time reader, first-time poster here. Made a patch for vLLM v0.24.0 that enables native INT8 KV Cache on the Ampere (my target was SM86 RTX 3090). It also includes optional V Cache FP8_E4M3 emulation, extending its range beyond +/-127 of INT8 INT8 KV Cache Support for Ampere (SM80) GPUs The patch only follows the Triton Attention path, as the Triton Attention DiffKV wasn't worth chasing in my use case - Gemma 4 is sensitive on V Cache quantization (going INT4/INT2 while leaving INT8 on K Cache for example). It will work with Qwen3.6-27B as well (also my use case) pure INT8 or with FP8_V_EMUL, and I guess any other models but YMMV. So what's the catch? You are trading off performance for the larger context size. In most cases you will get 1.75-2x larger context size, but your performance will be dropping as the context gets (ever so) larger. This was tested on 2x RTX 3090 (vLLM TP 2) only with P2P enabled driver. Start-up arguments for Gemma-4-31B I used (remove/adjust arguments if not using P2P): # Clear Linux page cache cleanly sync && echo 3 | sudo tee /proc/sys/vm/drop_caches > /dev/null free -h export VLLM_SKIP_P2P_CHECK=1 export NCCL_P2P_LEVEL=\"PIX\" export NCCL_BUFF_SIZE=16777216 export NCCL_CUMEM_ENABLE=1 export CUDA_FORCE_P2P_ACCESS=1 export CUDA_DEVICE_ORDER=PCI_BUS_ID export CUDA_VISIBLE_DEVICES=0,1 export SAFETENSORS_FAST_GPU=1 export VLLM_WORKER_MULTIPROC_METHOD=spawn export VLLM_ENABLE_CUDA_COMPATIBILITY=1 export VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=1 export PYTORCH_ALLOC_CONF=expandable_segments:True,max_split_size_mb:256,max_non_split_rounding_mb:1024 export VLLM_ALLOW_LONG_MAX_MODEL_LEN=1 export VLLM_MARLIN_USE_ATOMIC_ADD=1 export TORCH_FLOAT32_MATMUL_PRECISION=high export OMP_NUM_THREADS=1 export VLLM_KV_SCALES_FILE=scales/gemma4_31b_per_layer.json export VLLM_INT8_V_FP8_EMUL=1 vllm serve \\ models/cyankiwi_gemma-4-31B-it-AWQ-4bit \\ -O3 \\ --model-loader-extra-config '{ \"enable_multithread_load\": true, \"num_threads\": 8 }' \\ --kv-cache-dtype int8 \\ --host 0.0.0.0 \\ --port 8081 \\ --max-model-len -1 \\ --performance-mode interactivity \\ --gpu-memory-utilization 0.95 \\ --tensor-parallel-size 2 \\ --trust-remote-code \\ --served-model-name gemma-4-31b \\ --enable-chunked-prefill \\ --dtype bfloat16 \\ --max-num-batched-tokens 4096 \\ --max-num-seqs 1 \\ --enable-auto-tool-choice \\ --tool-call-parser gemma4 \\ --reasoning-parser gemma4 \\ --async-scheduling \\ --language-model-only \\ --disable-custom-all-reduce \\ --override-generation-config '{\"temperature\":1.0,\"top_p\":0.95,\"top_k\":64,\"presence_penalty\":0.1,\"repetition_penalty\":1.05}' The above presumes you've calibrated the scales first (with VLLM_INT8_V_FP8_EMUL on) and moved them to the scales/ sub-folder. Ultimately, this might have been a futile direction to follow with INT8 KV Cache, so ¯\\ (ツ) /¯ ... submitted by /u/3dluvr [link] [comments]",
+      "permalink": "/r/Vllm/comments/1utqjuu/patch_vllm_int8_kv_cache_support_for_ampere_sm80/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ut97fx",
+      "title": "Some testing on RTX Pro 4500 (With Oculink) on PrismaQuant, INT4 Autoround and NVFP4 W4A4 quantized model",
+      "author": "Kulidc",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ut97fx/some_testing_on_rtx_pro_4500_with_oculink_on/",
+      "selftext": "submitted by /u/Kulidc [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ut97fx/some_testing_on_rtx_pro_4500_with_oculink_on/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1usxs18",
+      "title": "LLM tokenizer implemented in odin",
+      "author": "Future_Ad1549",
+      "url": "https://www.reddit.com/r/Vllm/comments/1usxs18/llm_tokenizer_implemented_in_odin/",
+      "selftext": "submitted by /u/Future_Ad1549 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1usxs18/llm_tokenizer_implemented_in_odin/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1urjpcf",
+      "title": "I just spent way too long getting an open model endpoint running",
+      "author": "michaelmanleyhypley",
+      "url": "https://www.reddit.com/r/Vllm/comments/1urjpcf/i_just_spent_way_too_long_getting_an_open_model/",
+      "selftext": "I just spent way too long trying to get an open model served properly. The model itself was not really the hard part. The annoying parts were GPU choice, Docker/env setup, model download time, VRAM fit, startup health checks, logs, and making sure the endpoint actually stayed alive. Curious how others handle this. Do you usually - run vLLM locally - rent a GPU instance - use a hosted inference provider - keep your endpoint always on - only spin it up when needed I’m trying to understand whether people would want a simple dashboard where you choose a model, set a budget, deploy an OpenAI compatible endpoint, see logs/health, and stop billing when done. Or do most vLLM users prefer CLI/API only? submitted by /u/michaelmanleyhypley [link] [comments]",
+      "permalink": "/r/Vllm/comments/1urjpcf/i_just_spent_way_too_long_getting_an_open_model/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"GPU & Docker Setup, Endpoint Monitoring",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": [
+        {
+          "comment_id": "t1_owgxiaa",
+          "author": "burntoutdev8291",
+          "body": "docker compose up",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_owhump5",
+          "author": "StupidityCanFly",
+          "body": "This.",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_owi598u",
+          "author": "gwestr",
+          "body": "Use a serverless platform and deploy that docker container image to it.",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_owk6dgc",
+          "author": "FirstBusinessCoffee",
+          "body": "Welcome to the new world, where people no longer bother with documentation or building a fundamental understanding of technology.",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_owqmvgy",
+          "author": "diagrammatiks",
+          "body": "Codexake me a fast api bridge for mlx. That's it.",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        }
+      ]
+    },
+    {
+      "post_id": "t3_1urcv82",
+      "title": "Getting Qwen3.6-27B-FP8 to 26.5 tok/s on 2× AMD Radeon AI PRO R9700 (RDNA4)",
+      "author": "Fair-Telephone1265",
+      "url": "https://www.reddit.com/r/Vllm/comments/1urcv82/getting_qwen3627bfp8_to_265_toks_on_2_amd_radeon/",
+      "selftext": "submitted by /u/Fair-Telephone1265 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1urcv82/getting_qwen3627bfp8_to_265_toks_on_2_amd_radeon/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": null,\n  \"problem_statement\": null,\n  \"",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ur0xe4",
+      "title": "Which open source/open weight local LLM should I try for coding purposes.",
+      "author": "Hot_Complex_7490",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ur0xe4/which_open_sourceopen_weight_local_llm_should_i/",
+      "selftext": "submitted by /u/Hot_Complex_7490 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ur0xe4/which_open_sourceopen_weight_local_llm_should_i/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Local Development & Coding",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uqp8sz",
+      "title": "VRAM and other questions",
+      "author": "elmede",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uqp8sz/vram_and_other_questions/",
+      "selftext": "System: CPU AMD 9950x GPU 2x AMD 7900 XTX 48 GB VRAM PCIe: 8x / 8x RAM 2x 32GB 6000 mhz Ubuntu 26.04 Preference for ROCm + VLLM Objective: Would like to have some agentic programming capabilities / simple self hosted stuff Would like to have a chat akin to ChatGPT Would like to a full duplex audio chat or the illusion of a full duplex chat. ComfyUI for image generation Some permanence to the knowledge and topics How: Run Hermes agent, particularly for the permanent memory part Run an obsidian / LLM wiki Have a smaller agent for the Chat / audio part Have a bigger model for the agentic coding part 35b-A3B most likely, seems popular Run Lemonde or dreamweaver to have all integrated easily. Here are my questions: I believe I have an ok hardware; not enough VRAM for sure; don’t think I will ever have some of the huge VRAM as can be seen on the hardware of some of you. But should be fairly speedy machine? I don’t understand, how some of you can achieve some really high context 100K? 200K? Is that all VRAM or is some of the context pushed to RAM, making it all a crawl? Is that actually something to be wanted for the agentic part of the setup? Is 60/70K context good enough ? This seems like the bare minimum for Hermes, which I don’t understand as many of you seem to be running Hermes with a much smaller amount of VRAM. Again, makes me feel I am missing a peace of the puzzle. Should I be targeting a smaller model for agentic part? 27B maybe? Would it be better to have a model per GPU or to use both GPU for the big model and stuff the smaller model in the remaining space of the second GPU (somehow seems like a recipe for disaster). Is it possible to have the agent swap the model loaded based on the user or profile. For example getting Hermes to load the bigger model when an agentic task is required / load the chat model with a chat request is made? (I understand there is a loading phase, which can be a bit slow) I haven’t really thought about the comfyUI part of the setup. one of the things I would like to do from the setup to have some websites be automatically created with test linked to the homework of the kids. The kids make a demand or take a picture of their homework list: a simple website is created to evaluate their knowledge and give feedback on what to improve. I suppose the framework of the website can be first create and reviewed through a long agentic process, then saved and reused for a faster iteration in a regular use. submitted by /u/elmede [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uqp8sz/vram_and_other_questions/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uqht6m",
+      "title": "Four Stacked Bugs Stood Between Qwen3-Coder-30B and My Arc Pro B70",
+      "author": "PrimaryLonely5322",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uqht6m/four_stacked_bugs_stood_between_qwen3coder30b_and/",
+      "selftext": "submitted by /u/PrimaryLonely5322 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uqht6m/four_stacked_bugs_stood_between_qwen3coder30b_and/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\":",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1upqpp4",
+      "title": "Built a Python + FastAPI pipeline for job intelligence",
+      "author": "Top-Ear-1161",
+      "url": "https://www.reddit.com/r/Vllm/comments/1upqpp4/built_a_python_fastapi_pipeline_for_job/",
+      "selftext": "submitted by /u/Top-Ear-1161 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1upqpp4/built_a_python_fastapi_pipeline_for_job/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1upje08",
+      "title": "Thinking death spiral",
+      "author": "gs_37",
+      "url": "https://www.reddit.com/r/Vllm/comments/1upje08/thinking_death_spiral/",
+      "selftext": "I'm running Vllm on my DGX Spark. And when I try coding with a model they always end up in a death spiral of repeating their thinking and ponder the exact same looping text over and over. I have tried Zed and I have tried Cline. I have tried many Qwen models, as well as gptoss, orinth, nemotron, etc. Some models produce better code than others and some last longer, but eventually they all do it. I hear others constantly praising Qwen3.6 but it's one of the worst loopers for me. What am I missing? I've done all the nvidia updates and am on vllm version 0.23.1rc1.dev727 submitted by /u/gs_37 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1upje08/thinking_death_spiral/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1upddss",
+      "title": "TensorSharp supports Vulkan backend",
+      "author": "fuzhongkai",
+      "url": "https://www.reddit.com/r/Vllm/comments/1upddss/tensorsharp_supports_vulkan_backend/",
+      "selftext": "Due to high Vulkan backend demand, I update TensorSharp and release the initial version of GGML Vulkan backend by leveraging external GGML project. The native Vulkan backend will be implemented later. I tested it on Nvidia Geforce RTX 3080 Laptop GPU, and Intel(R) UHD Graphics on Windows. They all work. However, I do not have AMD GPU, so I have no way to get it tested. It's really appreciated if you have AMD GPU and would like to try it out. Any feedback and comment are welcome. Here is the benchmark I run to compare with llama.cpp: # Performance ratio — TensorSharp vs reference engines Geomean of TensorSharp's per-scenario speedup over each reference engine on the **same backend**, across every scenario both engines ran (single-stream, MTP-off). A value **> 1.0× means TensorSharp is faster** (for decode / prefill throughput) or lower-latency (for TTFT); `—` = no overlapping cells. Per-scenario ratios are in each model's section below. Model Comparison decode prefill TTFT Gemma 4 E4B it (Q8\\_0, dense multimodal) vs llama.cpp · Vulkan 0.93× 0.96× 0.95× Gemma 4 12B it (QAT UD-Q4\\_K\\_XL, dense) vs llama.cpp · Vulkan 1.18× 0.97× 0.95× # Gemma 4 E4B it (Q8_0, dense multimodal) (gemma4-e4b) **Decode throughput (tok/s)** Scenario TensorSharp · Vulkan llama.cpp · Vulkan text\\_short 41.6 45.3 text\\_long 40.9 44.5 multi\\_turn 41.3 43.6 function\\_call 41.2 44.4 **Prefill throughput (tok/s)** Scenario TensorSharp · Vulkan llama.cpp · Vulkan text\\_short 1641.7 1641.1 text\\_long 1157.0 1718.1 multi\\_turn 1695.5 1454.3 function\\_call 1661.2 1531.6 **Time to first token (ms, lower is better)** Scenario TensorSharp · Vulkan llama.cpp · Vulkan text\\_short 1203.0 1187.0 text\\_long 2719.0 1813.0 multi\\_turn 1235.0 1422.0 function\\_call 1219.0 1328.0 **Performance ratio — TensorSharp vs reference (> 1.0× = TensorSharp faster)** *Decode throughput* Scenario vs llama.cpp · Vulkan text\\_short 0.92× text\\_long 0.92× multi\\_turn 0.95× function\\_call 0.93× *Prefill throughput* Scenario vs llama.cpp · Vulkan text\\_short 1.00× text\\_long 0.67× multi\\_turn 1.17× function\\_call 1.08× *Time to first token (latency; > 1.0× = TensorSharp lower)* Scenario vs llama.cpp · Vulkan text\\_short 0.99× text\\_long 0.67× multi\\_turn 1.15× function\\_call 1.09× # Gemma 4 12B it (QAT UD-Q4_K_XL, dense) (gemma4-12b) **Decode throughput (tok/s)** Scenario TensorSharp · Vulkan llama.cpp · Vulkan text\\_short 31.3 31.1 text\\_long 31.4 30.0 multi\\_turn 30.9 31.6 function\\_call 60.8 31.9 **Prefill throughput (tok/s)** Scenario TensorSharp · Vulkan llama.cpp · Vulkan text\\_short 766.1 729.4 text\\_long 635.2 647.4 multi\\_turn 617.5 636.6 function\\_call 587.4 674.7 **Time to first token (ms, lower is better)** Scenario TensorSharp · Vulkan llama.cpp · Vulkan text\\_short 2578.0 2672.0 text\\_long 4953.0 4813.0 multi\\_turn 3391.0 3250.0 function\\_call 3531.0 3016.0 **Performance ratio — TensorSharp vs reference (> 1.0× = TensorSharp faster)** *Decode throughput* Scenario vs llama.cpp · Vulkan text\\_short 1.01× text\\_long 1.05× multi\\_turn 0.98× function\\_call 1.91× *Prefill throughput* Scenario vs llama.cpp · Vulkan text\\_short 1.05× text\\_long 0.98× multi\\_turn 0.97× function\\_call 0.87× *Time to first token (latency; > 1.0× = TensorSharp lower)* Scenario vs llama.cpp · Vulkan text\\_short 1.04× text\\_long 0.97× multi\\_turn 0.96× function\\_call 0.85× In case you didn't know what is TensorSharp, here is an introduction: TensorSharp is an open source local Unsloth (GGUF) LLM inference engine and applications. It supports many models from Unsloth, like Gemma4, DiffusionGemma, Qwen3.6 with multi-modal (image, vision, audio), image edit, reasoning and function tool. It can run on Windows/MacOS/Linux and fully leverage GPU's capability (support Cuda, Metal and Vulkan backends). The API is completely compatible with OpenAI and Ollama interface. It has on par performance than llama.cpp This project is not just a C# wrapper of llama.cpp. It implemented the entire LLM inference engine from bottom to top. If you use CPU backend, it's 100% pure C# code execution. Besides CPU backend, I also implemented CUDA, MLX and GGML backend. The GGML backend refer GGML project as external project, and I build a few fusion operation at higher level. I learned a lot from other projects and apply them for TensorSharp, such as paged KV cache and continuous batching from vLLM, SSD based cache for MoE model from oMLX, GGUF quantized from llama.cpp and other optimizations for prefill and decode. Any feedback and comments are welcome. If you like it, it would be really appreciated if you can get this project a star in GitHub. Thanks in advance. submitted by /u/fuzhongkai [link] [comments]",
+      "permalink": "/r/Vllm/comments/1upddss/tensorsharp_supports_vulkan_backend/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uoj0c1",
+      "title": "Suggestion for ML Performance Engg",
+      "author": "IamExperimentingNow",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uoj0c1/suggestion_for_ml_performance_engg/",
+      "selftext": "Hi, I’m preparing my self for Machine Learning Performance optimization engineer. So far, I have experience with optimising both training and inference pipeline for traditional deep learning models. Profiled using Nvidia Nsight system As of now LLM, VLM is high expectations, here I have done fine-tuning LLMs upto 27B models. Can anyone recommend me else to focus on for preparation? \\#llm #gpu #largelanguagemodel submitted by /u/IamExperimentingNow [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uoj0c1/suggestion_for_ml_performance_engg/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uodq4c",
+      "title": "vLLM powered Qwen3.6-27B-FP8 on One RTX 6000 Ada: Fast TTFT, 668 tok/s Peak Throughput",
+      "author": "Temporary-Owl1725",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uodq4c/vllm_powered_qwen3627bfp8_on_one_rtx_6000_ada/",
+      "selftext": "Detailed setup below: --- Model Field Value Model Qwen/Qwen-3.6 27B Hugging Face path Qwen/Qwen3.6-27B-FP8 Quantization / dtype FP8 Request sizing configured 8192 max tokens --- Serving Setup Field Value Engine vLLM 0.19 Endpoint /v1/chat/completions Streaming ON Tensor parallel size 1 Data parallel size 1 GPU memory utilization 0.90 max_model_len 8192 max_num_seqs 16 Tool call parser qwen3_coder Reasoning parser qwen3 Engine flags: --tensor-parallel-size 1 --data-parallel-size 1 --tool-call-parser qwen3_coder --reasoning-parser qwen3 --gpu-memory-utilization 0.90 --max-model-len 8192 --max-num-seqs 16 --- Hardware Component Configuration GPU 1× RTX 6000 Ada VRAM 48GB CPU 48 vCPU System RAM 118GB --- Workload Field Value Dataset ShareGPT sample Unique prompts 128 Concurrency levels 8, 12, 16 Total requests 384 Conversation shape Multi-turn chat Languages en, zh, ru, th, ko, fr, pl, ja max_model_len 8192 max output tokens per completion 1024 Temperature 0.2 --- Results Summary • TTFT p50 avg: 0.48s • TTFT p95 avg: 0.94s • TPOT p50 avg: 29.2 ms/token • Total throughput peak: 668.5 tok/s • KV cache max: 32.67% --- TTFT : Metric Avg Max Unit Interpretation p50 TTFT 0.4802 3.75 seconds Median requests started streaming quickly. p95 TTFT 0.9444 4.875 seconds Most requests started under ~1 second on average. p99 TTFT 1.074 4.975 seconds Tail TTFT stayed controlled on average, with occasional spikes. --- Token Throughput Token Type Avg Max Unit Interpretation Prompt tokens 170.4 386.9 tokens/sec Input processing throughput. Output tokens 161.5 314.1 tokens/sec Decode throughput. Total tokens 331.9 668.5 tokens/sec Combined prefill + decode throughput. Full blog link : https://blog.hexgrid.cloud/qwen3-6-27b-fp8-on-one-rtx-6000-ada-fast-ttft-668-tok-s-peak-throughput-benchmark --- Curious how others would read these numbers? Is this a good single-GPU Qwen3.6-27B performance, or is there obvious headroom I’m missing here? Best, submitted by /u/Temporary-Owl1725 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uodq4c/vllm_powered_qwen3627bfp8_on_one_rtx_6000_ada/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "",
+        "problem_statement": "",
+        "severity": "",
+        "startup_opportunity": "",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uo1tb9",
+      "title": "vllm-metal on MacBook Air Cluster: TB4 Ring Topology + LMCache?",
+      "author": "Less-Gur-609",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uo1tb9/vllmmetal_on_macbook_air_cluster_tb4_ring/",
+      "selftext": "Hey everyone, My office has 4x MacBook Air M2 (16GB RAM) machines sitting around, and I'm looking to utilize them for distributed LLM inference. Specifically, I want to connect them in a distributed node setup using a Thunderbolt 4 ring topology . The Problem I have already experimented with exo-explore/exo , but the generation speeds are quite slow—clocking in at under 6–8 tokens/sec for a Qwen 2.5/3.5-9B-4bit model. Proposed Architecture According to the vllm-metal distributed docs , there is foundational scaffolding for distributed executors. I am wondering if anyone has successfully deployed a disaggregated architecture using these specs. Specifically, could we architect it as: vllm kv_producer (Prefill node) vllm kv_consumer (Decode node) LMCache Cluster (Using the M2 cluster for centralized/offloaded KV cache storage) My Questions: Has anyone successfully run multi-node tensor or pipeline parallelism on Apple Silicon using vllm-metal yet? (The current docs note that cross-Mac collectives via mx.distributed are still highly experimental or in progress). Can LMCache be natively integrated alongside vllm-metal to effectively bridge the distributed KV cache layer and bump up the tokens/sec? Are there any specific bottlenecks with a Thunderbolt 4 ring topology under this setup that would heavily restrict the communication bandwith? Would love to hear if anyone has attempted a similar Mac-mini/Air cluster deployment or has architectural advice! submitted by /u/Less-Gur-609 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uo1tb9/vllmmetal_on_macbook_air_cluster_tb4_ring/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ungm05",
+      "title": "TensorSharp : Open Source Local LLM Inference Engine",
+      "author": "fuzhongkai",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ungm05/tensorsharp_open_source_local_llm_inference_engine/",
+      "selftext": "I would like to share my latest open source local Unsloth (GGUF) LLM inference engine and applications. It supports many models from Unsloth, like Gemma4, DiffusionGemma, Qwen3.6 with multi-modal (image, vision, audio), reasoning and function tool. It can run on Windows/MacOS/Linux and fully leverage GPU's capability. The API is completely compatible with OpenAI and Ollama interface. It has on par performance than llama.cpp This project is not just a C# wrapper of llama.cpp. It implemented the entire LLM inference engine from bottom to top. If you use CPU backend, it's 100% pure C# code execution. Besides CPU backend, I also implmented CUDA, MLX and GGML backend. The GGML backend refer GGML project as external project, and I build a few fusion operation at higher level. I learned a lot from other projects and apply them for TensorSharp, such as paged KV cache and continuous batching from vLLM, SSD based cache for MoE model from oMLX, GGUF quanztized from llama.cpp and other optimizations for prefill and decode. Any feedback and comments are welcome. If you like it, it would be really appreciated if you can get this project a star in GitHub. Thanks in advance. submitted by /u/fuzhongkai [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ungm05/tensorsharp_open_source_local_llm_inference_engine/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1umzghc",
+      "title": "Difference in output of LLMs using VM vs API providers",
+      "author": "Efficient_Pace",
+      "url": "https://www.reddit.com/r/Vllm/comments/1umzghc/difference_in_output_of_llms_using_vm_vs_api/",
+      "selftext": "submitted by /u/Efficient_Pace [link] [comments]",
+      "permalink": "/r/Vllm/comments/1umzghc/difference_in_output_of_llms_using_vm_vs_api/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1umnku4",
+      "title": "vLLM on native Windows ROCm RDNA3 — custom kernel port, gfx1100.",
+      "author": "Former-University905",
+      "url": "https://www.reddit.com/r/Vllm/comments/1umnku4/vllm_on_native_windows_rocm_rdna3_custom_kernel/",
+      "selftext": "submitted by /u/Former-University905 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1umnku4/vllm_on_native_windows_rocm_rdna3_custom_kernel/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1umly38",
+      "title": "Has anyone tried training DSpark / DeepSpec with the Open-PerfectBlend setup for qwen3.5 family like 4b ,9b ..etc ?",
+      "author": "1_Bit_ll_1_Bit",
+      "url": "https://www.reddit.com/r/Vllm/comments/1umly38/has_anyone_tried_training_dspark_deepspec_with/",
+      "selftext": "submitted by /u/1_Bit_ll_1_Bit [link] [comments]",
+      "permalink": "/r/Vllm/comments/1umly38/has_anyone_tried_training_dspark_deepspec_with/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1umb3yh",
+      "title": "Split-Brain LLM Serving Explained | Prefill/Decode Disaggregation with llm-d",
+      "author": "mostaptname",
+      "url": "https://www.reddit.com/r/Vllm/comments/1umb3yh/splitbrain_llm_serving_explained_prefilldecode/",
+      "selftext": "submitted by /u/mostaptname [link] [comments]",
+      "permalink": "/r/Vllm/comments/1umb3yh/splitbrain_llm_serving_explained_prefilldecode/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1um9cq2",
+      "title": "Looking for feedback on a small test SLM I built completely from scratch [P]",
+      "author": "nkthebass",
+      "url": "https://www.reddit.com/r/Vllm/comments/1um9cq2/looking_for_feedback_on_a_small_test_slm_i_built/",
+      "selftext": "Architecture: \\- Parameter count: 216.5M \\- Layers: 10 \\- Attention / no attention:\\*\\* Attention — 12-head multi-head self-attention, RoPE positional encoding, SDPA. Decoder-only, pre-norm, RMSNorm + SwiGLU, tied input/output embeddings. (hidden 1032, head\\_dim 86, FFN 4416) \\- Tokenizer:\\*\\* Custom 36k SentencePiece unigram, case-preserving, byte-fallback, with atomic chat/role + memory special tokens (\\`<|user|>\\`, \\`<|assistant|>\\`, \\`<|end|>\\`, …) \\- Context length: 768 \\- Dataset size/source: \\~551M tokens. Pretraining on public English text (Wikipedia, TinyStories, OpenWebText2); SFT on public instruction/chat sets (SmolTalk, UltraChat, Magpie, AM-DeepSeek-R1, Orca-Math) + a small custom greetings/assistant set. \\- Training time: \\~15 hours \\- Hardware: single NVIDIA RTX 3080 (10GB), bf16 \\- Training setup: AdamW (β 0.9/0.95), LR 3e-4, 1k warmup, weight decay 0.1, grad-clip 1.0, effective batch 16,384 tokens/step (micro 4 × grad-accum 8 × seq 512), 33,650 steps. Loss curve Random init → 1.77 smoothed (1.27 last step). Started at exactly ln(36000)=10.49 (true from-scratch). You can see SFT kick in — the sharp step-down at \\~410M tokens. (attach tinybrainbot\\_loss\\_curve.png) Sample outputs (F16 GGUF, temp 0.7 / top-p 0.9 / repeat-penalty 1.15 / freq 0.5 / presence 0.3) \\> \\*\\*User:\\*\\* Hello \\> \\*\\*Bot:\\*\\* Hello! How can I help you today? \\> \\*\\*User:\\*\\* Tell me a story about a robot who learns to paint. \\> \\*\\*Bot:\\*\\* In the heart of the city, there lived an assistant named Max. He was a kind and gentle \\> soul with eyes that shone like diamonds, and he had always known that art would bring people \\> together... \\> \\*\\*User:\\*\\* Write a short poem about the rain. \\> \\*\\*Bot:\\*\\* The rain was crisp and warm, casting dappled shadows on the walls of your town square... \\> Your voice was so cool and gentle, so bright and calming all that you could feel at home. \\> \\*\\*User:\\*\\* Explain what a computer is. \\> \\*\\*Bot:\\*\\* ...the development of a computer can be categorized as either an operating system or a \\> popular language, such as JavaScript or C++... (\\^ that last one is the honest failure mode — confidently wrong on facts. It nails conversational form far better than it knows anything.) What shocked me \\- The tokenizer was way more important that I thought. I lost quite a few full runs on a broken char-level (386 vocab) fallback before building a real 36k subword tokenizer — and that fixed it and was the biggest quality jump than any architecture or data tweak. \\- A GGUF export issue: llama.cpp has no unigram-tokenizer runtime on the default path, so a SentencePiece unigram\\*model gets silently re-segmented (Hello → Hell+o) and produces garbage — the weights were fine. Fix was exporting the GGUF vocab as UGM (t5 type) + the SP charsmap so it runs Viterbi. Cost me a day of pain. What I want feedback on \\- Token budget: 551M tokens for 216M params is way under Chinchilla (\\~4.3B). Would you push pretraining much longer before SFT, or is more/cleaner data the better spend at this scale for a quick demo? \\- Data mix / timing: the SFT step-down in the loss is dramatic — is it real learning, or mostly the model latching onto chat format? How would you tell them apart? \\- Cutting factual drift at \\~200M params: more pretraining, longer context, or distillation froma bigger teacher — where's the best ratio for noticeably better factual responses? \\- Arch nits: head\\_dim 86 is ugly (1032/12). Would 1024 hidden / 16 heads / 64 head\\_dim be ameaningfully better shape at this size (also allows quantization)? Happy to answer anything about the pipeline (tokenizer training, the from-scratch loop, GGUF export). Here's the model link as well [ https://huggingface.co/nkthebass/TinyBrainBot-demo-216.5m\\](https://huggingface.co/nkthebass/TinyBrainBot-demo-216.5m) submitted by /u/nkthebass [link] [comments]",
+      "permalink": "/r/Vllm/comments/1um9cq2/looking_for_feedback_on_a_small_test_slm_i_built/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1um0gg8",
+      "title": "Help with vLLM and Dual R9700 ROCM Qwen3.6 27B",
+      "author": "mwdmeyer",
+      "url": "https://www.reddit.com/r/Vllm/comments/1um0gg8/help_with_vllm_and_dual_r9700_rocm_qwen36_27b/",
+      "selftext": "submitted by /u/mwdmeyer [link] [comments]",
+      "permalink": "/r/Vllm/comments/1um0gg8/help_with_vllm_and_dual_r9700_rocm_qwen36_27b/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ulfnob",
+      "title": "Thank you to whoever is in the proffesional team that wrote the documentation",
+      "author": "misanthrophiccunt",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ulfnob/thank_you_to_whoever_is_in_the_proffesional_team/",
+      "selftext": "To me this is the biggest difference between llama.cpp and vllm and I use both, but I get far less headaches with vllm because of the very high quality docs. So just that, if any of you are here, thank you. submitted by /u/misanthrophiccunt [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ulfnob/thank_you_to_whoever_is_in_the_proffesional_team/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "",
+        "problem_statement": "",
+        "severity": "",
+        "startup_opportunity": "",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ulacqf",
+      "title": "VLM model performance",
+      "author": "smartremora",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ulacqf/vlm_model_performance/",
+      "selftext": "submitted by /u/smartremora [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ulacqf/vlm_model_performance/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ula7dj",
+      "title": "Advice needed please",
+      "author": "Specialist-Plant-265",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ula7dj/advice_needed_please/",
+      "selftext": "Hardware: 3x RTX 4000 Ada generation 20gb 1x RTX 4000 Pro Blackwell 24gb Total VRAM 80gb 192GB DDR4 UDIMM AMD threadripper 3970x Zenith 2 extreme alpha mobo I have been troubleshooting for two full days with vllm I have been trying to test different models to load, the only one i can sucessfully get up and running is nvidia/Qwen3.6-35b-a10b-nvfp4 I cant seem to load Qwen/Qwen3.6-27b-fp8 Qwen/Qwen3.6-35b-a3b My goal is to use a bigger model maybe 70-122b if possible quantized of course because i feel like the 35b is too dumb in reasoning basic prompts. Here are the settings i use for generic startup, also tweaked these numbers around with no success. Environment: CUDA_DEVICE_ORDER: PCI_BUS_ID CUDA_VISIBLE_DEVICE: “0,1,2,3” Command> Qwen-3.6-27b-fp8 for example —tensor-parallel-4 —max-model-len 16384 —gpu-memory-utilization .90 —kv—cache-dtype fp8 —enable-prefix-caching The issue im having is, when i run these other models, i get no available shared memory and eventually container turns off. I check htop and the only weird thing i see is that sometimes on a model the swp goes to like 7.98/8.00gb but looks like the processes are still running, on other models htop is just fine and i still get no memory broadcast block. Doing watch 1 nvidia-smi shows all 4 gpus with seemingly reasonable space 10gb/20gb utilized How is it my model is stalling? Im being patient and waiting 15-20minutes for first load Please advise, chatgpt is banging its clanker head into every wall troubleshooting I just want to get other models to load sucessfully consistantly so i can test. I have nothing else that is taking up vram, can share ss if needed Is it that my blackwell pro is incompatible with the rest of my rtx? submitted by /u/Specialist-Plant-265 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ula7dj/advice_needed_please/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ul72q4",
+      "title": "How do you check a local model is actually ready before you deploy it as an agent?",
+      "author": "Dhan295",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ul72q4/how_do_you_check_a_local_model_is_actually_ready/",
+      "selftext": "Honest question. I’m still learning how people do this in real production. I keep reading that benchmark scores don’t really tell you if a model will hold up as an agent, where it has to make a bunch of tool calls in a row. It can look good on paper and then quietly break halfway through. wrong tool, broken JSON, or it loses track of the task. I’ve also seen people say the same model behaves differently depending on how it’s served the runtime and the quantization change how reliable it is. So “it worked in testing” doesn’t always mean “it works in prod.” I haven’t run vLLM in production myself, so I’m trying to understand from people who have: • How do you decide a model is actually ready to ship as an agent, not just fast? • Do you have a real check before deploying, or is it more “ship it and watch”? • What breaks most often once it’s live that you wish you’d caught earlier? Genuinely just trying to learn how this is done. What does your process look like? submitted by /u/Dhan295 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ul72q4/how_do_you_check_a_local_model_is_actually_ready/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ukkcd0",
+      "title": "I built a self-hosted AI assistant platform with vLLM, LiteLLM, agents, MCP tools, and deep research — public demo available",
+      "author": "Zealousideal-Tap1302",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ukkcd0/i_built_a_selfhosted_ai_assistant_platform_with/",
+      "selftext": "I’ve been working on a self-hosted AI assistant platform, and the first public version is now available to try. Live demo: https://ijaesang-ui-macmini.tail67d660.ts.net/ Source code: https://github.com/openmake/openmake_llm The project is built around a simple idea: local inference should be the default, not an afterthought. The platform uses vLLM as the local inference backend, with LiteLLM in front as an OpenAI-compatible proxy. This lets the application treat local models and optional external providers through the same interface, while still keeping the local vLLM path as the default route. What it includes: Local model inference through vLLM LiteLLM proxy for OpenAI-compatible routing Chat interface with multi-model support Agent workflows with tool-calling loops MCP tool integration Docker-isolated tool/runtime processes Deep research pipeline with search, source fetching, verification, and cited synthesis Persistent memory and custom instructions Context-fit handling to avoid hard context overflow PostgreSQL and Redis backend Next.js / React frontend JWT / OAuth-based multi-user authentication Optional external-provider fallback with BYOK configuration Current local setup: Main chat model: qwen3.6-35b-a3b served through vLLM Embeddings: bge-m3 served through vLLM LiteLLM proxy in front of the inference layer The main challenge was not just serving a model locally. The harder part was building the orchestration layer around it: deciding when to call the model fitting context safely before inference routing between local and external models keeping tools isolated making agents useful without turning every request into a slow multi-step chain supporting research workflows with source verification and citations This started as a personal self-hosted assistant project, but it has grown into a broader local-first AI platform. I’d really appreciate feedback from people running local models or building agent systems: Does the demo work properly from your side? Does the local-first architecture make sense? Would you put LiteLLM in front of vLLM, use a custom router, or call vLLM directly? How would you structure embeddings, long-context handling, and tool execution? What model combinations would you use for coding, reasoning, translation, or research? The project is MIT-licensed, and I’m especially interested in feedback from people building production-ish self-hosted AI stacks. submitted by /u/Zealousideal-Tap1302 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ukkcd0/i_built_a_selfhosted_ai_assistant_platform_with/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uki6f8",
+      "title": "NVFP4 still isn't faster than FP8 on Blackwell (SM120) - some numbers from Qwen3.6-27B",
+      "author": "SiteOneCrawler",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uki6f8/nvfp4_still_isnt_faster_than_fp8_on_blackwell/",
+      "selftext": "Wanted to share some numbers and a bit of a reality check, because I was genuinely excited for this one and it didn't pan out the way I hoped. Our current daily driver on these cards is Qwen3.6-27B (dense) in FP8 . We keep it as two vLLM instances, one per GPU, with HAProxy in front load-balancing between them - and honestly it just works great. Before this we ran Qwen3.5-122B-A10B (the big MoE, 122B total / ~10B active). It's still ahead on a handful of large, complex synthesis prompts, and thanks to only ~10B active params it's actually quicker to answer than a 27B dense model. But for most of what we do - especially agentic workflows with a tool-calling harness - Qwen3.6-27B is simply better for our use case, so it won overall despite being the smaller model. We also tried a genuinely excellent one: MiniMax M3 in 2-bit (IQ2_XXS) . On quality it was the standout - flawless Czech, no artifacts, and noticeably stronger overall intelligence on large prompts than even Qwen3.6-27B. The catch is purely operational: that quant ships only as GGUF, so it runs on llama.cpp (spread across both GPUs at once), and even at 2-bit the context window we could fit was tiny and throughput under concurrency lagged - llama.cpp just isn't as optimized as vLLM for lots of simultaneous requests. So it stays our \"when we need the smartest answer\" tool rather than the daily driver. We also gave DeepSeek V4 Flash a shot - got it running across both cards in 4-bit from a vLLM fork - but the intelligence didn't really win us over: roughly on par with Qwen3.6-27B, not better, so in our benchmarks V4 just isn't strong enough to justify the switch. We're waiting for the V4.1 Flash release instead. So when NVIDIA's NVFP4 builds landed and vLLM 0.24.0 came out, I was really looking forward to a big jump. On paper FP4 looks fantastic - half the weight bandwidth of FP8, so decode *should* fly. As of mid-2026 the academic story is very promising. In practice, on our Blackwell cards, NVFP4 is still slower than FP8 - FP8 wins basically every decode-bound scenario. No big surprise given how new the SM120 FP4 path is; I'm mostly posting numbers so there's a concrete data point out there. Just a small sigh of \"not yet\" - we really hope the FP4 kernels for SM120 (RTX PRO 6000 Blackwell, RTX 5090, etc.) get some love soon, because on paper there's obviously headroom to unlock. Here's what I measured. Setup Same model, two quants: `nvidia/Qwen3.6-27B-NVFP4` vs `Qwen/Qwen3.6-27B-FP8` 1× RTX PRO 6000 Blackwell (96 GB) per quant, each pinned to its own GPU (verified) - so they ran in parallel without competing for compute vLLM 0.24.0 (NVFP4) vs 0.23.1rc1-dev (FP8) - see caveat MTP speculative decoding, 3 tokens, on both; fp8_e4m3 KV cache; 262k context NVFP4 used flashinfer attention + marlin/triton MoE backends; FP8 on vLLM defaults Both are the 600 W Workstation Edition, but we run them power-limited to 430 W and undervolted via LACT (the lactd GPU-control daemon). Since enabling it we've been getting essentially the same performance most of the time, but with noticeably lower power draw and temperatures under load - so these numbers are at a reduced power envelope, not stock 600 W Power note from our own monitoring: with small prompts - even a lot of them at once - the prefill phase stays light, so the decode phase rarely pushes past ~300 W even at ~64 concurrent requests. It's only when heavy prefill and heavy decode hit at the same time, across many concurrent requests, that the draw actually climbs all the way to the 430 W limit. Throughput (non-thinking, decode tok/s - higher is better) Scenario NVFP4 FP8 Winner single, small prompt 77.1 84.7 FP8 +10% big prompt (~22.3k in) 98.7 111.0 FP8 +12% 16x concurrent (aggregate) 891.7 963.3 FP8 +8% 4x concurrent big (aggreg.) 358.9 342.5 NVFP4 +5% warm TTFT 0.09s 0.09s tie FP8 wins everything decode-bound by a steady ~8–12%. NVFP4 only catches up (and edges ahead) when the run is prefill-bound - grinding through 22k-token prompts - where you're limited by compute on the context, not by weight bandwidth. First-token latency is identical once the server is warm, and there were no failures or truncations at concurrency 16 on either side. Quality - basically a tie (I actually ran the code and parsed the JSON, didn't just eyeball) Logic puzzle with a known answer: both 5/5 correct. Python `merge_intervals` with nasty edge cases: both 6/6, both raise ValueError on bad input, neither mutates the input. 59 KB Czech document → strict-schema JSON analysis: both valid, same severity call, comparable coverage. Czech writing (a ~2000-word poem, a formal complaint e-mail): native and artifact-free on both - no gibberish, no broken diacritics, no language switching. FP8 is a touch cleaner (a couple fewer grammar slips) and more disciplined in \"thinking\" mode; NVFP4 occasionally lets its reasoning run way over budget. So there's no meaningful intelligence or quality gap between the two quants here. The entire story is throughput - which is exactly why the kernel situation is the interesting bit. Caveats The two endpoints ended up on **different vLLM builds** (0.24.0 vs 0.23.1rc1-dev) plus different attention/MoE backends. That plausibly *favors* NVFP4 (newer FP4 path), which makes \"FP8 is faster\" the conservative reading. Single run per scenario, not averaged; short-output tok/s (logic/email) is noisy. One 27B model on one card with MTP=3 - don't extrapolate to dense-vs-MoE differences, other GPUs, or non-speculative serving. Still early days - and I'd love to hear from you Honest bit of context behind the sigh: I've had these cards for almost a year now, and FP4 hardware acceleration was a big part of why I bought them. I figured that within a few months the NVFP4 path would mature and things would just fly. A year in, the SM120 implementation still isn't quite there - so yeah, a small lament. But I do believe it'll come good before long; this really feels like an early-days software problem, not a hardware limit. So - has anyone actually gotten NVFP4 to beat FP8 on SM120 (RTX 6000 Blackwell / 5090)? Which vLLM version + flags moved the needle for you - attention backend, MoE backend, cutlass vs marlin vs trtllm? Genuinely curious what your numbers look like. Not trying to dunk on NVIDIA or the vLLM folks at all - everyone's shipping fast and I'm rooting for FP4 to eventually win. Mostly sharing real numbers so nobody buys the \"4-bit = automatically faster\" story before it's actually true on their hardware. submitted by /u/SiteOneCrawler [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uki6f8/nvfp4_still_isnt_faster_than_fp8_on_blackwell/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ujy802",
+      "title": "Which localLLM should I use",
+      "author": "LoneRider13-",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ujy802/which_localllm_should_i_use/",
+      "selftext": "I have next setup: CPU Pentium G4400 16 GB RAM 7 x Rx580 8 gb I have Vulkan drivers on Opensuse tumbleweed and that perfectly fit. I cant run Ollama because my CPU doesn't have AVX suport. Rocm drivers are not option, I try it and it doesn't work. What do You suggest to me, I run Qwen coder 3B q4 on llama server and Captainclaw frontend, and it works but I have issue with speed, because of my setup. Can anyone suggest some models that would work on my setup? Or something else, VSCode... Edit: I run Deepseek destill llama 8b q4 it works with 13 tokens per second, in 2.5 minute he create script . Amazing Thanks in advance submitted by /u/LoneRider13- [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ujy802/which_localllm_should_i_use/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ujou7b",
+      "title": "Multi provider LLM Streaming Abstraction What actually breaks in practice?",
+      "author": "jeann1977",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ujou7b/multi_provider_llm_streaming_abstraction_what/",
+      "selftext": "I'm building a multi-provider AI gateway and trying to understand how far you can realistically abstract streaming across different LLM providers. On the surface, most APIs look similar: token streaming, async support, and simple iteration over chunks. But in practice there are differences in stream termination, async behavior, error handling, and how incomplete or stalled streams are handled. One case I'm particularly interested in is when streams stop making progress or start repeating chunks indefinitely. I'm curious how people handle this in production timeouts, repeated-chunk detection, or provider-specific logic? For those who've built this at scale, what parts of the streaming abstraction actually worked cleanly, and where did you end up needing provider-specific handling? submitted by /u/jeann1977 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ujou7b/multi_provider_llm_streaming_abstraction_what/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ujlnho",
+      "title": "Advice on hardware setup for a small company?",
+      "author": "Aziadocs",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ujlnho/advice_on_hardware_setup_for_a_small_company/",
+      "selftext": "I already posted a related question in another sub, but since several people suggested looking into vLLM , I wanted to ask here too. We are a small company, around 30, and we will now have founding to buy hardware, which is one of the reasons of this possibility of having this small server. Main use cases: Internal document analysis Summarization Drafting emails/reports Basic coding and productivity help if possible image generatio Hardware options I’m considering: 4 × RTX 6000 2 × NVIDIA L40 or L40S Questions: Is vLLM a good fit for this kind of internal multi-user setup? What model sizes would be realistic on this hardware? Do I need more? What latency/response time should I expect with a few concurrent users? Any practical advices for your noob OP would be appreciated! ^_^ submitted by /u/Aziadocs [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ujlnho/advice_on_hardware_setup_for_a_small_company/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uihne7",
+      "title": "V100 Volta SM70 vLLM in 2026",
+      "author": "kumphanartd",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uihne7/v100_volta_sm70_vllm_in_2026/",
+      "selftext": "I have acquired Inspur 8x V100 32GB late last year. It takes me quite a while to get it running properly. Codex and Claude plays a big part in helping me get it up and running along with all the opensource repositories on GitHub. I would like to share what this machine is still capable of doing in 2026 for any person who have already owned it or people who thinks about acquiring one. https://github.com/KumphanartDansiri/v100-vllm-2026 Claude and Codex also helps me create basic FP8 extension for vLLM SM70 at https://github.com/KumphanartDansiri/vllm-fp8-w8a16-sm70 ## Quick summary This is not meant as “V100 beats new GPUs.” It is more a practical note for people who already own V100s, or are considering used V100 servers, and want to know what still works with modern vLLM in 2026. ### Test bench - Server: Inspur 8× NVIDIA Tesla V100 32GB SXM2 - GPU architecture: Volta / `sm_70` - Framework: vLLM 0.19.x and 0.21.x, built from source - Toolchain: CUDA 12.6 path for V100 compatibility - Runtime: FP16 on V100 for BF16 checkpoints, since V100 does not have a useful BF16 tensor-core path - Main serving mode: cudagraph decode, long-context setup, tensor parallelism depending on model size - Extra work: custom `fp8-w8a16-sm70` extension for block-FP8 models on V100 ### Models tested I tested a small group of current dense and MoE models rather than trying to cover everything: - Qwen3.5-27B: FP16, FP8, GPTQ-Int4 - Qwen3.5-35B-A3B: FP16, FP8, GPTQ-Int4 - Qwen3.5-122B-A10B: FP8 and GPTQ-Int4 - Qwen3.6-27B and Qwen3.6-35B-A3B - Gemma-4 26B-A4B and 31B - GLM-4.5-Air and GLM-4.7-Flash The Chapter 1 throughput numbers I quoted are from the long-context fleet setup: `max_model_len = 32768` / 32k context, with cudagraph decode and chunked prefill on. Decode tok/s is measured after TTFT, using 256 generated tokens and repeated runs. The TTFT table is single-stream cold prefill using a ~22.6k-token prompt, so it is closer to a worst-case long-context first-token latency test. Some separate TP2 / half-GPU capacity checks use shorter context, but the main Chapter 1 fleet tables are 32k-context results. ### Chapter 1 result snapshot Single-user decode, tok/s, from the Chapter 1 baseline: Model Format vLLM 0.19 vLLM 0.21 Qwen3.5-27B FP16 40.04 35.43 Qwen3.5-27B FP8 54.05 46.05 Qwen3.5-35B-A3B FP16 63.51 56.19 Qwen3.5-35B-A3B FP8 90.45 74.86 Qwen3.5-122B-A10B FP8 67.31 56.64 Qwen3.5-122B-A10B GPTQ-Int4 69.26 58.14 GLM-4.5-Air FP8 64.67 65.45 Gemma-4-31B FP8 35.23 35.28 A few takeaways: - V100 is no longer a “just pip install vLLM” target. I had to build vLLM from source with a CUDA/toolchain combination that still supports `sm_70`. - CUDAGraph matters a lot. Eager mode is not a fair serving baseline for these results. - Dense FP8 is useful at low concurrency, but FP16 can still win at higher concurrency where tensor cores are better utilized. - MoE FP8 is where the V100 result looks strongest: lower weight traffic helps a lot, and some models that are awkward or impossible in FP16 become practical. - First-token latency for some block-FP8 models is still a weak point. Decode can be good, but prefill is not always cheap. - The FP8 results are not stock vLLM. They use my companion V100 FP8 extension, so I try to separate “stock vLLM result” from “custom extension result” in the repo. ### TTFT summary Single-stream time-to-first-token, using the long prompt / cold prefill setup from Chapter 1. This is where V100 shows more of its age, especially for block-FP8 prefill. Model Format vLLM 0.21 cold TTFT FA-on cold TTFT Qwen3.5-27B FP16 26.96 s 11.23 s Qwen3.5-27B FP8 32.21 s 16.65 s Qwen3.5-35B-A3B FP16 14.22 s 9.08 s Qwen3.5-35B-A3B FP8 56.68 s 50.01 s Qwen3.5-122B-A10B GPTQ-Int4 25.65 s — Qwen3.5-122B-A10B FP8 88.43 s 87.38 s GLM-4.5-Air FP8 66.94 s 49.35 s Gemma-4-31B FP8 196.40 s — Takeaway: decode throughput can still be quite usable on V100, but cold prefill / TTFT is the painful part for some models. FlashAttention-V100 helps where attention is the main prefill bottleneck, but it does not solve the block-FP8 MoE prefill cost. ## submitted by /u/kumphanartd [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uihne7/v100_volta_sm70_vllm_in_2026/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": \"\",\n  \"problem",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ui3b3u",
+      "title": "Best VQA Model?",
+      "author": "_Med_br_",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ui3b3u/best_vqa_model/",
+      "selftext": "submitted by /u/_Med_br_ [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ui3b3u/best_vqa_model/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": null,\n  \"problem_statement\": null,\n  \"severity\": null,",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uhh6ow",
+      "title": "What are you guys using for ml workloads in production nowadays?",
+      "author": "Silver_Dev",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uhh6ow/what_are_you_guys_using_for_ml_workloads_in/",
+      "selftext": "submitted by /u/Silver_Dev [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uhh6ow/what_are_you_guys_using_for_ml_workloads_in/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": null,
+        "problem_statement": null,
+        "severity": null,
+        "startup_opportunity": null,
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uhgaqu",
+      "title": "DGX Spark + vLLM: 2x NVFP4 models for an internal AI platform. Does this architecture make sense?",
+      "author": "illNin0",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uhgaqu/dgx_spark_vllm_2x_nvfp4_models_for_an_internal_ai/",
+      "selftext": "submitted by /u/illNin0 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uhgaqu/dgx_spark_vllm_2x_nvfp4_models_for_an_internal_ai/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uh5ifk",
+      "title": "llm-d: Distributed LLM Inference on Kubernetes with vLLM",
+      "author": "RelevantEmergency707",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uh5ifk/llmd_distributed_llm_inference_on_kubernetes_with/",
+      "selftext": "submitted by /u/RelevantEmergency707 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uh5ifk/llmd_distributed_llm_inference_on_kubernetes_with/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uh2609",
+      "title": "DGX Spark + vLLM: 2x NVFP4 models for an internal AI platform. Does this architecture make sense?",
+      "author": "illNin0",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uh2609/dgx_spark_vllm_2x_nvfp4_models_for_an_internal_ai/",
+      "selftext": "submitted by /u/illNin0 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uh2609/dgx_spark_vllm_2x_nvfp4_models_for_an_internal_ai/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ugymq4",
+      "title": "I've created the Repairable AI Interchange Format for structured data that saves 10% tokens using vLLM plugin",
+      "author": "truehaZker",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ugymq4/ive_created_the_repairable_ai_interchange_format/",
+      "selftext": "I've recently been curious about how well JSON fits the LLM nature at all. Is it optimized for non-deterministic processes? I thought there should be a better approach and better format that can handle the LLM quirks and just be more efficient for LLMs instead of being made for humans. And I've created RAIF. It's not only standard, but a multi-level system that has standard, LoRAs, and vLLM plugin. On the benchmark that has a lot of different types of JSON, the avg token saving is 10%, but this number fluctuates based on the JSON type and tokenizer type. One of the best performing types is when JSON has a lot of repetitive data, and in this case, savings went up to 70% of tokens. The coolest part in my opinion is that this RAIF thing is compatible with all the existing clients and harnesses, because the vLLM plugin converts RAIF that's an LLM's output to JSON deterministically before it reaches the client, so you're getting a fully compatible API as it was before. The only problem I got is response_format streaming. It outputs plain RAIF, only if you turn off the streaming, the response_format will become JSON. Also, for it to work, I've fine-tuned some models using LoRAs and created 3 of them for now: skrrt-sh/raif-llama-3.2-3b-lora skrrt-sh/raif-qwen3-4b-lora skrrt-sh/raif-qwen2.5-0.5b-lora Even the tiniest model performs nicely with RAIF. There's an option to run RAIF without a plugin, so clients will get pure RAIF instead of JSON. For this, I've created light Python and TypeScript packages without any dependencies. Right now, I really want to get the feedback, and I want to see how well it fits the existing needs. It's more like an experiment for self-education, so idk if there's a real use case, that's why I'm calling for the community's help. https://reddit.com/link/1ugymq4/video/b7glacjcus9h1/player submitted by /u/truehaZker [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ugymq4/ive_created_the_repairable_ai_interchange_format/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ug7igt",
+      "title": "Qwen3.6-27B-FP8 with vllm:nightly, opencode unusable?",
+      "author": "waka324",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ug7igt/qwen3627bfp8_with_vllmnightly_opencode_unusable/",
+      "selftext": "Hey all, I'm at my wits end here, hoping someone might have some answers. When using opencode (or forks like kilocode), after making some tool calls, inference on the backend stops, and opencode just waits until timeout. I'm running on 4 RTX 8000s (SM75). I've tried all the chat templates, the coder and xml tool call parser, disabling reasoning, swapping between DFlash and MTP, but nothing seems to solve this issue. Could this be a triton bug or something silly like that? I've had access to other, newer hardware at work that doesn't seem to display the same issue on flash based kernels. UPDATE: Well turns out this is some network shenanigans. Crossing the subnet for some reason doomed the connection. submitted by /u/waka324 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ug7igt/qwen3627bfp8_with_vllmnightly_opencode_unusable/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ufuhwq",
+      "title": "Built a small tool to help choose GPUs for vLLM deployments. Looking for feedback.",
+      "author": "Major_Border149",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ufuhwq/built_a_small_tool_to_help_choose_gpus_for_vllm/",
+      "selftext": "I have been spending a lot of time figuring out which GPUs can actually run different models without manually checking VRAM, quantization, and pricing across providers. So I built a small tool that recommends compatible GPUs and compares options across providers and ranks the best fit basis an algorithm we built in the backend. It's still very early, and I will really appreciate feedback from people actually using vLLM. What would make something like this genuinely useful in your workflow? https://stratuspilot.io submitted by /u/Major_Border149 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ufuhwq/built_a_small_tool_to_help_choose_gpus_for_vllm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uf2sxb",
+      "title": "Built a fully self-hosted RAG where nothing left your infra? What's the part you'd warn the next person about?",
+      "author": "kaku2050",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uf2sxb/built_a_fully_selfhosted_rag_where_nothing_left/",
+      "selftext": "I have a feeling that the most valuable RAG systems are built on data that is sensitive for companies. That way, the data never leaves their controlled infrastructure. However, processing a massive amount of data of various formats and sources into a format suitable for a vector DB without using hosted parser APIs like Azure Document Intelligence, LlamaParse, Unstructured, etc. Seems like a nightmare. I want to find out how this looks in practice and map out where the real pain points hide in these projects. So if you've built one of these: on-prem or air-gapped because you had to (regulated data, client contracts), or just because you wanted control/privacy/cost Sources could be anything: PDFs and tables on disk, or data pulled from internal tools like Confluence, Jira, SharePoint. Drop a comment about what your biggest pain points were. What breaks, what eats time, what you'd do differently, what stack you used submitted by /u/kaku2050 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uf2sxb/built_a_fully_selfhosted_rag_where_nothing_left/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uf2k1x",
+      "title": "If LiteLLM gives 401/404s to a working vLLM backend, check this first",
+      "author": "Meyrcruywagen",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uf2k1x/if_litellm_gives_401404s_to_a_working_vllm/",
+      "selftext": "Had one of those “everything is broken except the thing I’m staring at” afternoons. Setup was simple: two vLLM boxes running behind LiteLLM in Docker, exposing a single OpenAI-compatible endpoint to my apps. The backend was fine. These were the actual problems: LiteLLM was still using cached config. I changed the backend from keyless to using an API key, updated LiteLLM, restarted vLLM, and kept getting 401s. Turned out LiteLLM was still holding the old keyless deployment. `docker restart litellm` fixed it straight away. If you use LiteLLM’s DB-backed model config, restart LiteLLM after changing keys, base URLs, or params. The model name sent to vLLM was wrong. The app uses the LiteLLM alias, but vLLM sees whatever comes after `openai/`. That value must match `--served-model-name`. If it doesn’t, you can get 404s through LiteLLM while direct backend curls still work. `curl backend:8000/v1/models` is the quickest sanity check. `localhost` was inside the container. If LiteLLM is in Docker, `api_base: http://localhost:8000` points at the LiteLLM container itself. Not your host, not your vLLM service. Use the real hostname/IP, `host.docker.internal` plus `host-gateway`, or the Docker bridge gateway. Small extra: don’t use `systemctl is-active` to decide whether vLLM is ready. Active just means the process started. It may still be loading weights or compiling kernels. Poll `/v1/models`. Every error looked like it was coming from the layer underneath. It wasn’t. submitted by /u/Meyrcruywagen [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uf2k1x/if_litellm_gives_401404s_to_a_working_vllm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uerg3z",
+      "title": "Got GLM-5.2 + MTP speculative decode running on 4× DGX Spark (GB10) — and the build piece the public recipe is missing",
+      "author": "anvarazizov",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uerg3z/got_glm52_mtp_speculative_decode_running_on_4_dgx/",
+      "selftext": "submitted by /u/anvarazizov [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uerg3z/got_glm52_mtp_speculative_decode_running_on_4_dgx/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ucdjb4",
+      "title": "CPU overhead in vLLM",
+      "author": "Medical_Meet2089",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ucdjb4/cpu_overhead_in_vllm/",
+      "selftext": "https://preview.redd.it/4o0czyu5as8h1.png?width=572&format=png&auto=webp&s=abf90606467cda6d97630956e6869a3c8dad8866 Found this graph in one of the GPU Mode's lectures. Is it still true? I couldn't find any such recent breakdowns online. submitted by /u/Medical_Meet2089 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ucdjb4/cpu_overhead_in_vllm/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"The user couldn't find recent data on CPU overhead in vLLM, suggesting a gap in current understanding or availability of recent performance breakdowns.\",\n  \"severity\": \"Moderate\",\n  \"startup_opportunity\":",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uave4k",
+      "title": "An open handbook on LLM inference at scale (GPU internals, KV cache, batching, vLLM/SGLang/TensorRT-LLM) [P]",
+      "author": "YouFirst295",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uave4k/an_open_handbook_on_llm_inference_at_scale_gpu/",
+      "selftext": "submitted by /u/YouFirst295 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uave4k/an_open_handbook_on_llm_inference_at_scale_gpu/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uaftwh",
+      "title": "Trying to get vLLM off the ground...",
+      "author": "GuitarEC",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uaftwh/trying_to_get_vllm_off_the_ground/",
+      "selftext": "Let me apologize up front - I am not a system admin or LLM architect. I'm a hobbyist who has a small home AI server that I'm expanding into something a little more than a personalized chatbot. Up until now, I've been using ollama, and for my purposes, it has been working just fine. However, I'm starting to explore more agentic uses for my AI server, and ollama just isn't making the grade. For context, I'm running a GekTec EVO-X2 (AMD Ryzen AI Max+ 395 with Radeon 8060S (gfx1151) - 128GB total memory, 32GB System, 96GB VRAM). I am running ROCm 7.2.4 drivers. I've set up a Docker container for vLLM, and it appears to start, but it has an issue with the model I've pulled locally. I'm trying to run a Qwen 3.6 27B Uncensored model I've pulled from Huggingface (gguf), and the logs say that \"qwen35\" is not a supported gguf model architecture yet. Looking at the model's page on HF, I do not see available files for config, tokenizer, safetensors, etc. Should I have the container pull the model from HF on startup? If so, is there a way for me to control where on my system the model gets stored? Again, I'm very new to this space and learning as I go, so please go easy on me if I'm not seeing the obvious answer here. Thank you. submitted by /u/GuitarEC [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uaftwh/trying_to_get_vllm_off_the_ground/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1uaee1v",
+      "title": "2× Radeon AI PRO R9700 (RDNA4/gfx1201) on vLLM 0.22.1 — how we fixed the long-context decode cliff (and what we learned chasing FP8)",
+      "author": "whodoneit1",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uaee1v/2_radeon_ai_pro_r9700_rdna4gfx1201_on_vllm_0221/",
+      "selftext": "Posting our setup for the (apparently growing) club of people running multiple R9700s on vLLM. Big shout-out to u/AustinM731 — their AITER Unified Attention post was the single most useful thing we found, and I want to (a) confirm it works, (b) share where our findings lined up vs differed, and (c) save the next person the week we spent going down dead ends. # The rig * **GPUs:** 2× AMD Radeon AI PRO R9700 (gfx1201 / RDNA4, 32 GB each), TP=2 * **Board/CPU:** ASRock X870E, Ryzen, 60 GB RAM * **OS:** Fedora 44 Server, **kernel 7.0.11** (the \\~100 W idle-draw bug is fixed in 7.0 — already not an issue for us) * **Model:** Qwen3.6-35B-A3B-FP8 (the 35B hybrid Gated-DeltaNet + attention MoE, \\~3B active), native 262K context * **Serving:** MTP speculative decoding (n=3), AITER Unified Attention, **bf16 KV cache**, TunableOp, `--enable-chunked-prefill` # Exact versions (so people know what this is on) GPU arch : gfx1201 (RDNA4) ×2, TP=2 OS / kernel : Fedora Linux 44 (Server), kernel 7.0.11-200.fc44 vLLM : 0.22.1 ROCm / HIP : 7.2.x (torch.version.hip = 7.2.53211) PyTorch : 2.10.0 (+git8514f05) Triton : 3.6.0 AITER : present (gfx1201 gate relaxed; see below) base image : vllm/vllm-openai-rocm:v0.22.1 (we run a committed image with 2 one-line patches) runtime : podman + systemd (--user), --ipc=host, NCCL_PROTO=Simple, ROCR_VISIBLE_DEVICES=0,1 Note on versioning: vLLM moves fast and the gfx1201 gates change between releases. On **0.22.1** the AITER unified-attention backend is already built in (just gated to CDNA). On the 0.19/0.20 images others used, you had to rebuild. So your patch surface depends heavily on your vLLM version — worth stating yours when you compare numbers. # The thing that actually mattered: the long-context decode cliff For ages we only ever benchmarked at \\~8K context and were happy (\\~100+ tok/s). Then we benchmarked *deep*, and decode fell off a cliff: context ROCm prefill-decode attn (before) \\~8K \\~100 tok/s \\~21K 56 \\~79K **14** That \\~7× collapse is **not** normal memory-bandwidth decay — it was the unoptimized ROCm attention path on gfx1201 scaling badly. The fix is exactly what u/AustinM731 found: **AITER Unified Attention** (`ROCM_AITER_UNIFIED_ATTN`). On vLLM 0.22.1 the backend is already compiled in — it's just gated to CDNA (MI300/MI350). Relax one gate and select it: * In `vllm/_aiter_ops.py`, `is_aiter_found_and_supported()` returns `on_mi3xx()`. Make it also allow gfx1x: `return on_mi3xx() or bool(getattr(_rocmmod, \"_ON_GFX1X\", False))` * Run with `--attention-backend ROCM_AITER_UNIFIED_ATTN`, `VLLM_ROCM_USE_AITER=1`, and **turn the others off** (`VLLM_ROCM_USE_AITER_MHA=0`, `_PAGED_ATTN=0`, `_MOE=0`, `_LINEAR=0`) — those have no gfx1201 kernel and will crash MoE init otherwise. Plus `FLASH_ATTENTION_TRITON_AMD_ENABLE=TRUE`. * It auto-sets KV block size to 64 (power-of-2), which sidesteps the AITER TILE\\_SIZE assert on the Qwen3.6 hybrid layout. Result (Qwen3.6-35B-A3B-FP8, TP2, MTP3, bf16 KV) — strictly faster at every depth, gap widens with context: context before **AITER unified** \\~8.7K \\~100 **136** \\~21K 56 **83** \\~79K 14 **41** (≈3×) \\~118K collapsed **30** Quality unchanged (still bf16 KV). For a context-filling coding agent this was night and day. # How our findings compared to u/AustinM731 's post **Confirmed / same:** * AITER Unified Attention is THE long-context fix on gfx1201. Relaxing the CDNA gate to include RDNA4 is the move. * MTP=3 is the sweet spot (\\~84% draft acceptance for us, free single-stream speed). * That fast attention path is **bf16/fp16 KV only** — you can't pair it with FP8 KV. * The 100 W idle issue is fixed in kernel 7.0. **Different / what we'd add:** * **Newer vLLM = less patching.** They were on 0.19.1/0.20.2 and rebuilt images; on 0.22.1 the unified-attn backend already ships — it's a one-line Python gate relax + the `--attention-backend` flag. No full rebuild. * **TP=2 on hybrid models needs the GDN-KKT fix.** vLLM ≥0.21 mis-compiles the Gated-DeltaNet `chunk_scaled_dot_kkt` Triton kernel on gfx1201 (a Hopper WGMMA layout change, #42076) → TP≥2 hangs at startup with a misleading shm\\_broadcast timeout. One-line revert of that operand layout on non-CUDA fixes it. If you run Qwen3.6/Qwen3-Next hybrids on TP2, you probably need this. * **We went deep on FP8 KV and concluded it's a dead end on gfx1201 — skip it.** The 262K-context dream via FP8 KV isn't worth it: the stock vLLM fp8 decode kernel does a per-element fp32 dequant that's \\~3× slower; we wrote a kernel patch (fold the scalar scale → cast to bf16) that got it 34→41.5 tok/s, and even probed native fp8 WMMA (compiles on RDNA4!) and int32-packed loads — none beat bf16, and AITER unified requires bf16 KV anyway. Qwen3.6's KV footprint is tiny, so just run bf16. * **The HIP \"custom paged attention\" kernel is unreachable for this model.** It's hard-gated off for hybrid GDN models (stride-padded KV layout → `has_native_kv_cache_layout` is false), so even bf16 falls back to Triton. Don't chase it for Qwen3.6. * **Context headroom:** with bf16 KV our pool is \\~768K tokens, so at the model's native 262K you still get \\~2.9× concurrency. No need for FP8 KV to reach max context. * **2 GPUs vs their 4:** our single-stream decode holds \\~30 tok/s at 118K (they hold higher on 4×). Long-context decode scales with how much compute/bandwidth you can throw at it. # TL;DR config for gfx1201 + Qwen3.6 on vLLM 0.22.1 * Patch 1: revert #42076 operand layout on non-CUDA (GDN-KKT) → TP2 works * Patch 2: allow `ROCM_AITER_UNIFIED_ATTN` on gfx1x in `_aiter_ops.py` * Flags: `--attention-backend ROCM_AITER_UNIFIED_ATTN`, AITER on but MHA/paged/MoE/linear off, MTP n=3, bf16 KV, TunableOp, chunked prefill * Don't bother with FP8 KV. Happy to share the exact patches/compose if anyone wants them. Thanks again to u/AustinM731 — the unified-attention tip was the unlock. submitted by /u/whodoneit1 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uaee1v/2_radeon_ai_pro_r9700_rdna4gfx1201_on_vllm_0221/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": null,
+        "problem_statement": null,
+        "severity": null,
+        "startup_opportunity": null,
+        "reasoning": ""
+      },
+      "comments": [
+        {
+          "comment_id": "t1_otec28o",
+          "author": "Mr_Moonsilver",
+          "body": "Woah, all the info I've ever been looking for. Thank you!!!",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "",
+            "problem_statement": "",
+            "severity": null,
+            "startup_opportunity": null,
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_otechdo",
+          "author": "Mr_Moonsilver",
+          "body": "If you hVe fhe patches and compose files, you'd do me a great favor!",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": \"\",",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        }
+      ]
+    },
+    {
+      "post_id": "t3_1uab7jj",
+      "title": "I got tired of not understanding how vLLM works under the hood, so I built my own mini inference engine from scratch.",
+      "author": "Top-Ear-1161",
+      "url": "https://www.reddit.com/r/Vllm/comments/1uab7jj/i_got_tired_of_not_understanding_how_vllm_works/",
+      "selftext": "Hey everyone, I’ve been using stuff like vLLM and TensorRT-LLM for a while, but I realized I didn't actually understand how they were squeezing so much performance out of GPUs. To figure it out, I decided to just build one myself. I put together an open-source project called TokenForge . It’s not another API wrapper or chatbot UI—it’s a barebones inference engine built from the ground up in PyTorch and CUDA just to test out how all these optimization tricks actually work. Here’s what I ended up implementing: Continuous Batching: Instead of waiting for a whole batch to finish, it injects new requests on the fly so the GPU is never just sitting there idle. Paged KV Cache: I essentially copied the homework of PagedAttention to stop VRAM fragmentation. It pre-allocates memory blocks so you don't randomly run out of memory. Custom Kernels: Standard PyTorch was bottlenecking things, so I wrote some raw C++/CUDA and Triton kernels (including a custom Flash-Attention setup). Speculative Decoding: Paired the main model with a tiny draft model to guess tokens ahead of time and speed up generation. A Live Dashboard: Hooked everything up to a FastAPI backend with a UI that tracks VRAM, power draw, and tokens/sec in real-time. Honestly, this was mostly a massive learning project for me to understand memory bandwidth and GPU scheduling. If you're curious about how LLMs actually run at a low level, or just want to roast my C++ code, I'd love some feedback! https://github.com/prathamsingh404/TokenForge-GPU-Accelerated-LLM-Inference-Research-Platform submitted by /u/Top-Ear-1161 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1uab7jj/i_got_tired_of_not_understanding_how_vllm_works/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\":",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1ua9feh",
+      "title": "2× Radeon AI PRO R9700 (RDNA4/gfx1201) on vLLM 0.22.1 — how we fixed the long-context decode cliff (and what we learned chasing FP8)",
+      "author": "whodoneit1",
+      "url": "https://www.reddit.com/r/Vllm/comments/1ua9feh/2_radeon_ai_pro_r9700_rdna4gfx1201_on_vllm_0221/",
+      "selftext": "submitted by /u/whodoneit1 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1ua9feh/2_radeon_ai_pro_r9700_rdna4gfx1201_on_vllm_0221/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u9qfsb",
+      "title": "470 tok/s with 8192 ctx size for Qwen3.6-27B on A100-80GB using Profile",
+      "author": "Inevitable-Diet-1870",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u9qfsb/470_toks_with_8192_ctx_size_for_qwen3627b_on/",
+      "selftext": "Hi all, I've been working on making Profile more smarter, grounded in physics, & to help you get max out of your inference server. Profile (v2.1.4) : a closed loop physics, & cost aware optimizer that gives bottlenecks, fix tips, wait for you to apply, & measure delta on the changes. The core engine has been made more physics aware; meaning less threshold hardcoding or number guessing, more on what's actually happening. I got 15x throughput & 93% cost reduction on my setup [Watch it live] I've also got few engineers from MSFT, Google, & other startups who provided interesting numbers + 4 from this sub. Pls give it a try & let me know how I can make it help you! # Download curl --proto '=https' --tlsv1.2 -LsSf \\ https://github.com/jungledesh/profile/releases/latest/download/profile-installer.sh | sh # Start profiling your vLLM server profile diagnose --url http://localhost:8000/metrics --duration 1m Github: https://github.com/jungledesh/profile Docs: https://jungledesh.github.io/profile/docs.html Thanks to initial 4 users from this sub to help me w/ right feedback. More features soon: prometheus scrape, multi-gpu support, cluster / k8s support, & more rules :) submitted by /u/Inevitable-Diet-1870 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u9qfsb/470_toks_with_8192_ctx_size_for_qwen3627b_on/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": false,\n  \"pain_category\": \"\",\n  \"problem_statement\": \"\",\n  \"severity\": \"\",\n  \"startup_op",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u92731",
+      "title": "what broke first when your setup got real traffic?",
+      "author": "michaelmanleyhypley",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u92731/what_broke_first_when_your_setup_got_real_traffic/",
+      "selftext": "I’m curious about actual vLLM serving pain, not benchmark numbers. When you moved from “it runs” to “people/jobs are actually hitting the endpoint,” what was the first thing that broke? Was it: OOM TTFT throughput prefix caching not helping as much as expected long-context requests killing everyone else bad batching settings cold starts OpenAI-compatible endpoint weirdness multi-GPU / tensor parallel issues logs not making the bottleneck obvious Would be useful to see hear some configs. ex max batched tokens, max model len, rough concurrency etc submitted by /u/michaelmanleyhypley [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u92731/what_broke_first_when_your_setup_got_real_traffic/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u8z260",
+      "title": "Deep dive: Parallelism strategies for large-scale LLM inference — tensor parallelism, pipeline parallelism, disaggregation, KV cache, MoE expert parallelism",
+      "author": "ArchitectingAI",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u8z260/deep_dive_parallelism_strategies_for_largescale/",
+      "selftext": "submitted by /u/ArchitectingAI [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u8z260/deep_dive_parallelism_strategies_for_largescale/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u8z19j",
+      "title": "I wrote a deep dive on how large-scale LLM inference actually works — from user prompt to final token",
+      "author": "ArchitectingAI",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u8z19j/i_wrote_a_deep_dive_on_how_largescale_llm/",
+      "selftext": "submitted by /u/ArchitectingAI [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u8z19j/i_wrote_a_deep_dive_on_how_largescale_llm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u8hvcw",
+      "title": "4 RTX 6000 Pro",
+      "author": "Some-Manufacturer-21",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u8hvcw/4_rtx_6000_pro/",
+      "selftext": "Hey everyone, I’m getting a 4-GPU node with RTX 6000 Pro Blackwell Edition cards, and I’m trying to estimate how many simultaneous users I could realistically support when serving MiniMax M2.7 NVFP4 . I’m planning to use FP8 KV cache , and likely LMCache backed by DDR5 RAM to help with longer-context workloads. I’m trying to decide on the best parallelism strategy for this setup: TP=2 + PP=2 TP=4 Any other recommended configuration? The main things I’m trying to understand are expected concurrency, TTFT, tokens/sec, and whether pipeline parallelism makes more sense than full tensor parallelism on this kind of node. I’d really appreciate any insights from people who have deployed something similar, especially with vLLM, LMCache, NVFP4 models, or RTX 6000 Blackwell GPUs. Thanks! submitted by /u/Some-Manufacturer-21 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u8hvcw/4_rtx_6000_pro/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u823sb",
+      "title": "vllm vs llama.cpp vs ollama vs sglang",
+      "author": "rs38",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u823sb/vllm_vs_llamacpp_vs_ollama_vs_sglang/",
+      "selftext": "submitted by /u/rs38 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u823sb/vllm_vs_llamacpp_vs_ollama_vs_sglang/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "",
+        "problem_statement": "",
+        "severity": "",
+        "startup_opportunity": "",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u7c12r",
+      "title": "Zaya1-8B Faster and Accurate",
+      "author": "PatC883",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u7c12r/zaya18b_faster_and_accurate/",
+      "selftext": "I love shiny new things, I'm also a little impatient. ​ I also was super interested in the architecture of Zyphra's Zaya1 model. ​ I was super disappointed that the vllm patch for it ran using torch functions and had no RSA provisions. It was kinda slow and stupid. ​ I engaged a project to fix both of those. ​ I have a working HIP CCA kernel that runs in 8 usec per iteration instead of 180ish, and a serving proxy that does the RSA stuff, and because it sounded cool, a mode that makes the recursion settings dynamic. ​ And it worked, very well, it got 100% of 5 randomly selected AIME hard questions correct. ​ Now I've read some criticism about the fact if you give a model enough thinking tokens of course it gets more answers correct, those folks I feel have completely missed the headline point of test time compute, it did exactly what it says on the tin and does it well. It's a model with less than one billion active parameters, and well see above. ​ If you'd like to play with it the repo is in the comments. submitted by /u/PatC883 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u7c12r/zaya18b_faster_and_accurate/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u6kgck",
+      "title": "vLLM vs llama.cpp vs olama",
+      "author": "Outrageous-Nobody-87",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u6kgck/vllm_vs_llamacpp_vs_olama/",
+      "selftext": "I thought I would share some benchmarking results I made with gpt-oss:20b and gemma-4-26b-qat AI models. I'm using very budget setup (2 x rtx 5060 Ti 16GB). Full article: Benchmarking AI Models | personal wiki gpt-oss:20b Edit: decided to repeat gpt-oss:20b test (on new hardware). Also, added sglang for comparison. https://preview.redd.it/y0af28s4o28h1.png?width=1487&format=png&auto=webp&s=33ca2cf1456f924e05c88f363ab9f20283b12cd8 gemma-4-26b-qat https://preview.redd.it/lr5r2t2ywg7h1.png?width=1252&format=png&auto=webp&s=c219444abdee9512484a805bac4e6a2784864a01 submitted by /u/Outrageous-Nobody-87 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u6kgck/vllm_vs_llamacpp_vs_olama/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"The developer is experiencing high resource usage and slow performance when running AI models on their budget hardware setup.\",\n  \"severity\": \"Moderate\",",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": [
+        {
+          "comment_id": "t1_ory6gs7",
+          "author": "M4A3E2APFSDS",
+          "body": "would be nice to see sglang results as well",
+          "analysis": {
+            "has_pain_point": true,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Boilerplate & Config\",\n  \"problem_statement\": \"The developer is",
+            "severity": "Moderate",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_orz47dd",
+          "author": "Outrageous-Nobody-87",
+          "body": "Will try to get SGlang running and test it.",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "GPU Memory Leaks",
+            "problem_statement": "",
+            "severity": "",
+            "startup_opportunity": "",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_osbf84s",
+          "author": "MarketsandMayhem",
+          "body": "was just popping by to write this",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "",
+            "problem_statement": "",
+            "severity": "",
+            "startup_opportunity": "",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_orycr23",
+          "author": "yeah_likerage",
+          "body": "This tracks exact with my experience as well oh large and small models but I've only occupied the low end of concurrency",
+          "analysis": {
+            "has_pain_point": true,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Concurrency & Scheduling\",\n  \"problem_statement\": \"The developer is",
+            "severity": "Moderate",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_oso3o9x",
+          "author": "stormy1one",
+          "body": "When qwen",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        }
+      ]
+    },
+    {
+      "post_id": "t3_1u60181",
+      "title": "Which client do you usually use to test different VLMs?",
+      "author": "PeriniM_98",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u60181/which_client_do_you_usually_use_to_test_different/",
+      "selftext": "submitted by /u/PeriniM_98 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u60181/which_client_do_you_usually_use_to_test_different/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "",
+        "problem_statement": "",
+        "severity": "",
+        "startup_opportunity": "",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u5dxmu",
+      "title": "For rented GPUs, what hurts more, price or wasted idle time?",
+      "author": "michaelmanleyhypley",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u5dxmu/for_rented_gpus_what_hurts_more_price_or_wasted/",
+      "selftext": "I keep seeing people compare GPU hourly prices, but I’m wondering if the bigger issue is wasted runtime. For people using RunPod, Vast, Lambda, ComfyUI, vLLM, or LoRA training: How much of the pain is actually: paying while the GPU sits idle forgetting teardown model loaded in VRAM but no compute happening job failed early but the machine kept running logs unclear enough that you leave it up to debug storage or region issues making teardown risky Is raw hourly price the main problem, or is controlled runtime/teardown the bigger issue? submitted by /u/michaelmanleyhypley [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u5dxmu/for_rented_gpus_what_hurts_more_price_or_wasted/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u58ddk",
+      "title": "AMD's RDNA2 / W6800 / V620 on vLLM",
+      "author": "Faisal_Biyari",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u58ddk/amds_rdna2_w6800_v620_on_vllm/",
+      "selftext": "I see in vLLM's documentation that AMD's RDNA2 GPUs are not supported, although they do work. Has anyone using RDNA2 GPUs (gfx1030) such as the AMD Radeon PRO W6800 or V620 successfully used them with vLLM, and maybe optimized a bit? What model did you use? What quantization format did you use? Did you use docker or python virtual environment (venv)? What variables did you set when building the environment? What is your prompt? How is your general experience and satisfaction? How are your numbers? (Tokens per second, time to first token, etc)? Did Tensor Parallelism work for you? Did Pipeline Parallelism work for you? Did you try using Ray to utilize multiple nodes? Anything that anyone could share would be incredibly useful 🙏🏻 submitted by /u/Faisal_Biyari [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u58ddk/amds_rdna2_w6800_v620_on_vllm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u4ui7p",
+      "title": "is there a way to run vLLM on Windows/WSL?",
+      "author": "rs38",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u4ui7p/is_there_a_way_to_run_vllm_on_windowswsl/",
+      "selftext": "(seems to be an issue only with newer vLLM Versions (v0.22/23) on CUDA?) didn't expect to be vLLM that complicated compared to llama.cpp... wanted to try more parallelism and safetensor models, but failed to get it run at all Initializing a V1 LLM engine (v0.23.0) with config: model='Qwen/Qwen3-0.6B', ´ [...] WARNING Using 'pin_memory=False' as WSL is detected. This may slow down the performance. [...] Using V2 Model Runner ERROR [core.py:1195] EngineCore failed to start. the same happens when running with docker. or it can be: ERROR 05-22 10:02:39 [core.py:1159] RuntimeError: UVA is not available https://github.com/vllm-project/vllm/issues/43381 I noticed there are at least 2 Windows forks...which I didn't try so far. submitted by /u/rs38 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u4ui7p/is_there_a_way_to_run_vllm_on_windowswsl/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u4fpi5",
+      "title": "Setting Qwen 3.5 \"--image-min-tokens 1024\"",
+      "author": "Odd-Student636",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u4fpi5/setting_qwen_35_imagemintokens_1024/",
+      "selftext": "I keep getting this message every time I use Image to prompt, where in gods name do I set it? in llama.cpp server? what file? in the custom node .json files? which one? \"Qwen-VL models require at minimum 1024 image tokens to function correctly on grounding tasks load_hparams: if you encounter problems with accuracy, try adding --image-min-tokens 1024 load_hparams: more info: https://github.com/ggml-org/llama.cpp/issues/16842 \" That link has 2 dozen problem none of which have to do anything with the message. submitted by /u/Odd-Student636 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u4fpi5/setting_qwen_35_imagemintokens_1024/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u49q9d",
+      "title": "Models for RTX 3090 on vllm",
+      "author": "marian_dnb",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u49q9d/models_for_rtx_3090_on_vllm/",
+      "selftext": "Title basically. Looking to see what the current meta is for a single RTX 3090 (24GB), specifically for agent workflows and tool calling. ​ * **What models are you running?** (Models, quants of larger models, etc.) * **What runner/backend?** (vLLM, ExLlamav2, Ollama, Aphrodite) * **What context length** are you actually hitting without OOM? ​ If you're using vLLM, please drop your launch parameters or docker config. Thanks! ​ submitted by /u/marian_dnb [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u49q9d/models_for_rtx_3090_on_vllm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u40unp",
+      "title": "DiffusionGemma 26B NVFP4 vLLM Notes on NVIDIA DGX Spark, 100+ tok/s",
+      "author": "Ok-Preference8227",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u40unp/diffusiongemma_26b_nvfp4_vllm_notes_on_nvidia_dgx/",
+      "selftext": "In direct vLLM API testing, with thinking disabled, I got about 101 tok/s single-request throughput and about 148 tok/s aggregate throughput at concurrency=4. Setup highlights: - NVIDIA DGX Spark, reported by `nvidia-smi` as NVIDIA GB10 - vLLM 0.22.1rc1.dev357+g74b5964f0 - `vllm/vllm-openai:gemma` - `VLLM_USE_V2_MODEL_RUNNER=1` - `TRITON_ATTN` - `max_model_len=100000` - `gpu_memory_utilization=0.70` - `max_num_batched_tokens=8192` - `max_num_seqs=4` It has also been working fine so far through my Hermes AI Agent Telegram gateway. Subjectively, in my setup it feels more than 50% faster than running `Qwen3.6-35B-A3B-NVFP4` on vLLM, though that part is not a controlled benchmark. Main notes: I had to upgrade vLLM/use the Gemma image, set the V2 model runner, remove `--enforce-eager`, and tune batching. Older vLLM builds may not load this model correctly. https://github.com/miter37/diffusiongemma-vllm-gb10-notes submitted by /u/Ok-Preference8227 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u40unp/diffusiongemma_26b_nvfp4_vllm_notes_on_nvidia_dgx/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": [
+        {
+          "comment_id": "t1_or9qagn",
+          "author": "Own_Mix_3755",
+          "body": "How does it work with tool calling etc? I mainly have Qwen on the Spark as with fixed template, it quite works. I have 35B because of speed and I wouldnt have a problem with switching it to Gemma (I dont do any extensive coding) if tool calling would be working together with model not eivergin with a little bigger context.",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_orc8y8u",
+          "author": "Ok-Preference8227",
+          "body": "I’ve also been running my Hermes agent with Qwen. For the past two days, I've been using the same Hermes profile with this DiffGemma, and it’s handling all my existing tool-calling perfectly so far. But at 1.5x speed. Definitely worth a shot.",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": null,
+            "problem_statement": null,
+            "severity": null,
+            "startup_opportunity": null,
+            "reasoning": ""
+          }
+        },
+        {
+          "comment_id": "t1_ore9gix",
+          "author": "Blaisun",
+          "body": "I did some testing on it the other day on my spark as well.. never had played much diffusion models for text generation before.. it surprised me that it gets faster as the output size increases up to about 4k, but drops off significantly after that.. i was running it on the https://github.com/eugr/spark-vllm-docker .. haven't tested too much in real world scenarios as of yet.. https://preview.redd.it/afz2h36b617h1.png?width=1478&format=png&auto=webp&s=bbe09a8c8358e9e332f607138c2a0f98920b7226",
+          "analysis": {
+            "has_pain_point": false,
+            "pain_category": "Developer Usability & Infrastructure",
+            "problem_statement": "",
+            "severity": "Minor",
+            "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+            "reasoning": ""
+          }
+        }
+      ]
+    },
+    {
+      "post_id": "t3_1u3y8i9",
+      "title": "VLLM for B300 + Deepseek v4 pro",
+      "author": "hrusli",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u3y8i9/vllm_for_b300_deepseek_v4_pro/",
+      "selftext": "Hi all, first post! My company is currently doing a POC on a single-node B300 (8x GPU) for local agentic dev before we decide to buy. We have about 10-15 engineers testing it right now. For small contexts, it's snappy and fast (>60 tok/s). But the moment 2-3 engineers resume sessions with large contexts (~200-300k), decode speeds absolutely tank to <10 tok/s for everyone else. Any advice on optimizing this? Here is the command I'm currently using: vllm serve /home/u/DeepSeek-V4-Pro \\ --port 8001 \\ --trust-remote-code --kv-cache-dtype fp8 --block-size 256 \\ --max-model-len 1048576 \\ --enable-expert-parallel --tensor-parallel-size 8 \\ --moe-backend deep_gemm_mega_moe \\ --compilation-config '{\"cudagraph_mode\":\"FULL_AND_PIECEWISE\",\"custom_ops\":[\"all\"]}' \\ --attention-config '{\"use_fp4_indexer_cache\": true}' \\ --tokenizer-mode deepseek_v4 --tool-call-parser deepseek_v4 \\ --enable-auto-tool-choice --reasoning-parser deepseek_v4 \\ --enable-prefix-caching \\ --max-num-batched-tokens 4096 Any suggestions or tips and tricks to make it perform a lot better? Thanks! submitted by /u/hrusli [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u3y8i9/vllm_for_b300_deepseek_v4_pro/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u3il80",
+      "title": "How are you handling LLM model distribution in Kubernetes clusters?",
+      "author": "Electronic_Role_5981",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u3il80/how_are_you_handling_llm_model_distribution_in/",
+      "selftext": "submitted by /u/Electronic_Role_5981 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u3il80/how_are_you_handling_llm_model_distribution_in/",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "{\n  \"has_pain_point\": true,\n  \"pain_category\": \"Performance & Latency\",\n  \"problem_statement\": \"Distributing large language models in Kubernetes clusters presents challenges in terms of performance and scalability.\",\n  \"severity\": \"Critical\",\n  \"startup_opportunity\": \"A SaaS tool that assists in man",
+        "severity": "Moderate",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u3e97u",
+      "title": "Llm",
+      "author": "RefrigeratorEven935",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u3e97u/llm/",
+      "selftext": "Everyone I’m new to this community so take it easy on me. I have developed a zero trust infrastructure kind of like Tailscale that except you don’t trust Tailscale either- it’s all your own stuff. Back to the 90s I know. I’d like to create some plug-ins so it’s platform as a service not infrastructure as a service , and one of the infrastructure things I would like to do is LLM routing. Be honest with me - is VLLM Athena ready for primetime or should Ijust wait and maybe contribute to it for six months to a year? I think it’s the right idea but I’m wondering if LLM proxy would be right if I release something tomorrow. submitted by /u/RefrigeratorEven935 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u3e97u/llm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u2zev1",
+      "title": "Gemma 4 31B vLLM on TPU",
+      "author": "notamyth21",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u2zev1/gemma_4_31b_vllm_on_tpu/",
+      "selftext": "Hi folks, for anyone experimenting with Gemma 4 and trying to optimize training times without Flash Attention, my team has put together and open-sourced a TPU (JAX + Tunix/Qwix) training recipe that makes the process much smoother. https://arxiv.org/abs/2605.25645 submitted by /u/notamyth21 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u2zev1/gemma_4_31b_vllm_on_tpu/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u24zxn",
+      "title": "OpenAI Batch API for existing vLLM servers: JSONL in, batch_id out, results later",
+      "author": "Zestyclose_Cheek4321",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u24zxn/openai_batch_api_for_existing_vllm_servers_jsonl/",
+      "selftext": "vLLM is great for online OpenAI-compatible serving. The production gap we hit: users wanted to upload a big JSONL file, get a batch_id, and come back later for result/error files, similar to OpenAI Batch API. So I built a thin batch layer in front of normal vLLM endpoints DeltaLLM Batching It handles: batch files, async job state, retries, cancellation, result/error files, worker scheduling and model capacity limits vLLM still does the inference. The layer only handles the async job lifecycle around it. Curious how others solve this today ? Reference Github repo https://preview.redd.it/x1jl5njf2h6h1.png?width=1420&format=png&auto=webp&s=ea1e3065411659fbef9e0fa9d2d57a1be2ffebbc submitted by /u/Zestyclose_Cheek4321 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u24zxn/openai_batch_api_for_existing_vllm_servers_jsonl/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u1h46y",
+      "title": "Optimizing serverless vLLM cold starts: Shaving weight-loading down to 1.5s for an 8B model.",
+      "author": "MaxChamp08",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u1h46y/optimizing_serverless_vllm_cold_starts_shaving/",
+      "selftext": "Hey everyone, I started working on a custom infrastructure project a while ago to tackle the serverless cold start tax. Under the hood, I’m primarily using vLLM for the actual inference engine because its paging and throughput performance are unmatched once everything is initialized. However, the classic headache with scaling vLLM (and the underlying server) to zero is the massive bottleneck when a cold request hits—waiting for server to start and the model weights to pull from storage and load into VRAM before vLLM can even start its engine. I’ve been focusing heavily on optimizing the underlying storage-to-VRAM pipeline and the vLLM init procedure to see how fast we can load a model into the GPU. Here are some raw benchmarks I’ve been getting on a custom setup: Qwen3 4B — 0.7s Llama 3.1 8B — 1.5s Qwen3 32B — 5.9s Note: These numbers strictly cover the raw weight loading portion (storage → VRAM) and exclude a separate ~3s required for the vLLM engine init. If something like this was hosted as a cloud platform where you could deploy your own custom configurations, weights, or fine-tunes on top of an optimized vLLM backend, I'm curious to get your raw feedback on the concept. I want to keep the discussion pretty broad: What are your overall thoughts on these numbers? Does a total cold-start package of ~4.5 seconds (infra + loading) change how you think about deploying vLLM in production, or do you still stick strictly to dedicated, always-on instances? What would you absolutely need to see from a cloud platform built around vLLM? (e.g., dynamic LoRA swapping, specific API compatibilities, granular control over advanced vLLM arguments like block sizes or max model lens?) What is your biggest headache when managing vLLM infrastructure right now? Just trying to open up a broad discussion with other developers using vLLM at scale to see if this direction is genuinely solving a real-world constraint or if there are bigger bottlenecks I should be looking at. submitted by /u/MaxChamp08 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u1h46y/optimizing_serverless_vllm_cold_starts_shaving/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u1dh3z",
+      "title": "What is the most commonly used LLM in prod?",
+      "author": "Ok-Hold-5333",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u1dh3z/what_is_the_most_commonly_used_llm_in_prod/",
+      "selftext": "I am currently studying and testing several open-source models, and I am trying to identify a reliable default model that I can use unless specific client requirements push me toward something else, such as a model that is stronger in math or better suited for coding-agent workflows etc. ​ Most of the clients we demo to are focused on customer service use cases, whether that means a chatbot, call center assistant, or something similar. However, I have noticed a trend where some of my colleagues immediately jump to 70B models running on H100s, RTX 6000s, and similar high-end hardware, which makes the quota and deployment costs extremely expensive for clients. ​ To me, that does not make much sense. I am currently testing the 4-bit version of Qwen 3 30B A3B on a relatively cheap A40, and it feels good enough for many of these use cases. It is also giving me impressive concurrency results, with over 150 concurrent users. ​ That said, I am still not very experienced with LLMs in general, so I would appreciate some advice. Are my doubts reasonable, or is the push toward larger 70B models and more expensive hardware actually justified in most customer-service scenarios? submitted by /u/Ok-Hold-5333 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u1dh3z/what_is_the_most_commonly_used_llm_in_prod/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u1dff0",
+      "title": "Profile v2: A physics-grounded, cost-aware optimizer for vLLM.",
+      "author": "Inevitable-Diet-1870",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u1dff0/profile_v2_a_physicsgrounded_costaware_optimizer/",
+      "selftext": "A simple CLI tool that helps you to fine tune your vLLM server. Profile deeply scans your inference engine (vLLM to begin with), and GPU, calculates your HW limits using Math, & uses metrics from vLLM to give you the waste, its cause, and finally tips to fix it. It does not stop there, it waits for you to apply the tips, and then keep on re-iterating, until you AI server is tuned to get max out of its limits, or there are no more issues. A closed loop optimizer for vLLM. Github: https://github.com/jungledesh/profile Live Demo + Docs: https://jungledesh.github.io/profile/index.html I'd love to have any feedback, and answer any q's / concerns. submitted by /u/Inevitable-Diet-1870 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u1dff0/profile_v2_a_physicsgrounded_costaware_optimizer/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u118er",
+      "title": "I built a Local LLM VRAM / throughput calculator — looking for feedback from real users",
+      "author": "catsec",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u118er/i_built_a_local_llm_vram_throughput_calculator/",
+      "selftext": "submitted by /u/catsec [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u118er/i_built_a_local_llm_vram_throughput_calculator/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u0rm4u",
+      "title": "cleanllm – streaming JSONL cleaner for LLM fine-tuning datasets (pip install cleanllm)",
+      "author": "PsychologicalBed671",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u0rm4u/cleanllm_streaming_jsonl_cleaner_for_llm/",
+      "selftext": "If you use vLLM for serving and also prep your own fine-tuning data, you might find this useful. **cleanllm** is an open-source streaming JSONL cleaner for LLM fine-tuning datasets. **What it does:** - Streaming scan/fix — handles 100GB+ datasets line-by-line without loading into memory - Duplicate detection, encoding fixes, token length filtering, empty assistant response drops - Schema validation for ShareGPT, Alpaca, ChatML - HuggingFace Hub integration — stream any HF dataset directly to JSONL - Configurable presets and pipelines - CLI + Python API ```bash pip install cleanllm cleanllm scan dataset.jsonl cleanllm fix dataset.jsonl -o clean.jsonl ``` PyPI: https://pypi.org/project/cleanllm/ Happy to answer questions! submitted by /u/PsychologicalBed671 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u0rm4u/cleanllm_streaming_jsonl_cleaner_for_llm/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1u02mw5",
+      "title": "vllm-doctor — a CLI tool to diagnose and monitor vLLM inference servers",
+      "author": "aminala",
+      "url": "https://www.reddit.com/r/Vllm/comments/1u02mw5/vllmdoctor_a_cli_tool_to_diagnose_and_monitor/",
+      "selftext": "submitted by /u/aminala [link] [comments]",
+      "permalink": "/r/Vllm/comments/1u02mw5/vllmdoctor_a_cli_tool_to_diagnose_and_monitor/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "t3_1tytyh3",
+      "title": "Introduction to LLM API Benchy",
+      "author": "snapo84",
+      "url": "https://www.reddit.com/r/Vllm/comments/1tytyh3/introduction_to_llm_api_benchy/",
+      "selftext": "submitted by /u/snapo84 [link] [comments]",
+      "permalink": "/r/Vllm/comments/1tytyh3/introduction_to_llm_api_benchy/",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "Developer Usability & Infrastructure",
+        "problem_statement": "",
+        "severity": "Minor",
+        "startup_opportunity": "Automated devtool/service to streamline this workflow.",
+        "reasoning": ""
+      },
+      "comments": []
+    }
+  ]
+}

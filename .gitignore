@@ -1,16 +1,17 @@
-*.egg
-*.egg-info/
-*.eggs/
+# Python & Environment
+__pycache__/
 *.pyc
-*~
-.DS_Store
-.cache/
-.claude/
-.coverage
-.idea/
-.pytest_cache/
-.python-version
-.tox/
-_build/
-build/
-dist/
+.env
+venv/
+.venv/
+
+# Large Model Weights & Executables
+llama-bin/
+*.gguf
+*.bin
+*.exe
+
+# Temporary Live Logs
+deepseek_r1_painpoints_live.json
+deepseek_r1_sentiment_r_vllm_live.json
+deepseek_r1_sentiment_*.json
