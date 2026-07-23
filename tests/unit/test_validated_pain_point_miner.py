@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import unittest
+from unittest.mock import patch
 
 import validated_pain_point_miner as miner
 
@@ -28,6 +29,33 @@ def evidence(author: str, thread_id: str, key: str = "multi_gpu_utilization") ->
 
 
 class ValidatedPainPointMinerTests(unittest.TestCase):
+    def test_reddit_rate_limit_is_retried_with_backoff(self):
+        class Response:
+            def __init__(self, status_code: int):
+                self.status_code = status_code
+                self.headers = {"Retry-After": "0"}
+
+            def raise_for_status(self):
+                if self.status_code >= 400:
+                    raise miner.requests.HTTPError(f"HTTP {self.status_code}")
+
+        class Session:
+            def __init__(self):
+                self.responses = [Response(429), Response(200)]
+                self.calls = 0
+
+            def get(self, *_args, **_kwargs):
+                self.calls += 1
+                return self.responses.pop(0)
+
+        session = Session()
+        with patch.object(miner.time, "sleep") as sleep:
+            response = miner.reddit_get(session, "https://example.test/rss", timeout=10)
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(session.calls, 2)
+        self.assertTrue(sleep.called)
+
     def test_malformed_json_is_excluded_not_keyword_classified(self):
         result = miner.parse_evidence({"has_explicit_pain": True, "complaint": "The GPU is slow"})
 

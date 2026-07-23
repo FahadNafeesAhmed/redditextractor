@@ -29,6 +29,8 @@ DEFAULT_COMMENTS = 5
 DEFAULT_MIN_EVIDENCE = 3
 DEFAULT_MIN_AUTHORS = 3
 DEFAULT_MIN_THREADS = 2
+REDDIT_MIN_REQUEST_INTERVAL = 1.5
+REDDIT_MAX_ATTEMPTS = 6
 VALID_SORTS = {"new", "hot", "top"}
 VALID_STRENGTHS = {"weak", "moderate", "strong"}
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -170,6 +172,35 @@ def extract_evidence(
     return invalid_evidence(error or "Unknown error.") if parsed is None else parse_evidence(parsed)
 
 
+def reddit_get(session: requests.Session, url: str, timeout: int) -> requests.Response:
+    """Fetch public Reddit RSS politely, honoring rate limits before retrying."""
+    last_error: requests.RequestException | None = None
+    for attempt in range(1, REDDIT_MAX_ATTEMPTS + 1):
+        last_request = float(session.__dict__.get("_reddit_last_request_at", 0.0))
+        remaining = REDDIT_MIN_REQUEST_INTERVAL - (time.monotonic() - last_request)
+        if remaining > 0:
+            time.sleep(remaining)
+        try:
+            response = session.get(url, headers=HEADERS, timeout=timeout)
+            session.__dict__["_reddit_last_request_at"] = time.monotonic()
+            if response.status_code == 429:
+                retry_after = response.headers.get("Retry-After", "")
+                try:
+                    delay = max(REDDIT_MIN_REQUEST_INTERVAL, float(retry_after))
+                except ValueError:
+                    delay = min(300.0, 30.0 * 2 ** (attempt - 1))
+                if attempt < REDDIT_MAX_ATTEMPTS:
+                    time.sleep(delay)
+                    continue
+            response.raise_for_status()
+            return response
+        except requests.RequestException as error:
+            last_error = error
+            if attempt < REDDIT_MAX_ATTEMPTS:
+                time.sleep(min(60.0, 5.0 * 2 ** (attempt - 1)))
+    raise last_error or requests.RequestException("Reddit request failed without an error.")
+
+
 def fetch_posts(
     session: requests.Session,
     subreddit: str,
@@ -182,8 +213,7 @@ def fetch_posts(
         raise MinerError(f"Unsupported sort: {sort}.")
     url = f"https://www.reddit.com/r/{subreddit}/{sort}/.rss?limit={limit}"
     try:
-        response = session.get(url, headers=HEADERS, timeout=timeout)
-        response.raise_for_status()
+        response = reddit_get(session, url, timeout)
     except requests.RequestException as error:
         raise MinerError(f"Could not fetch subreddit RSS: {error}") from error
 
@@ -213,8 +243,7 @@ def fetch_comments(
     if limit <= 0 or not permalink:
         return []
     try:
-        response = session.get(f"https://www.reddit.com{permalink}.rss", headers=HEADERS, timeout=timeout)
-        response.raise_for_status()
+        response = reddit_get(session, f"https://www.reddit.com{permalink}.rss", timeout)
     except requests.RequestException:
         return []
     comments = []

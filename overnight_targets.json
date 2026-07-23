@@ -1,0 +1,17 @@
+[
+  {"source": "github", "name": "llama.cpp issues", "config": {"repository": "ggml-org/llama.cpp"}},
+  {"source": "github", "name": "Ollama issues", "config": {"repository": "ollama/ollama"}},
+  {"source": "github", "name": "vLLM issues", "config": {"repository": "vllm-project/vllm"}},
+  {"source": "github", "name": "ROCm issues", "config": {"repository": "ROCm/ROCm"}},
+  {"source": "github", "name": "SGLang issues", "config": {"repository": "sgl-project/sglang"}},
+  {"source": "github", "name": "Open WebUI issues", "config": {"repository": "open-webui/open-webui"}},
+  {"source": "github", "name": "LMCache issues", "config": {"repository": "LMCache/LMCache"}},
+  {"source": "discourse", "name": "Hugging Face Forums", "config": {"base_url": "https://discuss.huggingface.co"}},
+  {"source": "discourse", "name": "NVIDIA Developer Forums", "config": {"base_url": "https://forums.developer.nvidia.com"}},
+  {"source": "stackexchange", "name": "Stack Overflow Ollama", "config": {"site": "stackoverflow", "tag": "ollama"}},
+  {"source": "stackexchange", "name": "Stack Overflow Transformers", "config": {"site": "stackoverflow", "tag": "huggingface-transformers"}},
+  {"source": "stackexchange", "name": "Stack Overflow CUDA", "config": {"site": "stackoverflow", "tag": "cuda"}},
+  {"source": "hackernews", "name": "Hacker News local LLM", "config": {"query": "local LLM"}},
+  {"source": "hackernews", "name": "Hacker News GPU inference", "config": {"query": "GPU inference"}},
+  {"source": "hackernews", "name": "Hacker News Ollama", "config": {"query": "Ollama"}}
+]

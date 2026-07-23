@@ -56,3 +56,36 @@ Generated files are written to reports:
 - validated_opportunities_r_<subreddit>_<timestamp>.md distinguishes validated clusters from unvalidated leads.
 
 Generated reports and local virtual environments are ignored by Git.
+
+## Multi-source public API collection
+
+`multi_source_scraper.py` collects attributable public discussion units from GitHub Issues, Discourse forums, Stack Exchange, and Hacker News. It uses provider APIs and public JSON endpoints with per-host pacing and retry/backoff; it does not scrape private communities or label collected content as a pain point.
+
+~~~powershell
+python multi_source_scraper.py --dry-run
+python multi_source_scraper.py --limit-per-target 50 --comments-per-thread 5
+~~~
+
+The collector writes a versioned `multi_source_collection_<timestamp>.json` audit file to `reports`. Its normalized `source_id`, `thread_id`, `author`, URL, timestamps, text, and source metadata are the input contract for the overnight validation runner. See [the architecture document](MULTI_SOURCE_ARCHITECTURE.md) for adapter contracts, safeguards, and custom target configuration.
+
+## Durable overnight research
+
+`overnight_pain_research.py` adds checkpoints, cross-run deduplication, a single-run lock, automatic local-LLM validation, and a final report with `validated`, `emerging`, and `insufficient_evidence` states.
+
+~~~powershell
+python overnight_pain_research.py --cycles 2 --interval-minutes 120 --limit-per-target 20 --comments-per-thread 3
+~~~
+
+Progress is stored under `reports/overnight_state`. Each collected and analyzed item is appended and flushed immediately. If the computer or network interrupts the process, run the same command again to resume without double-counting unchanged records.
+
+### AI-agent and integration research lane
+
+`agent_integration_targets.json` is an included, broad target set for researching reliability problems in AI agents and the systems around them. It currently spans 22 public sources: 16 GitHub projects plus Stack Overflow and Hacker News searches. The set covers agent frameworks, MCP and tool integrations, workflow automation, memory, observability, and browser agents.
+
+Run it in a separate state directory so its evidence cannot be mixed with the local-AI-infrastructure lane:
+
+~~~powershell
+python overnight_pain_research.py --target-file agent_integration_targets.json --cycles 1 --limit-per-target 50 --comments-per-thread 3 --min-request-interval 2 --state-dir reports\agent_integration_state --output-dir reports --wait-for-server 600
+~~~
+
+Do not run a second copy while `reports\agent_integration_state\run.lock` exists. A completed run writes Markdown and JSON reports in `reports` and labels each cluster as `validated`, `emerging`, or `insufficient_evidence`. A `validated` result still means only that the collected public evidence met the recurrence policy; it is not proof of a viable business.
