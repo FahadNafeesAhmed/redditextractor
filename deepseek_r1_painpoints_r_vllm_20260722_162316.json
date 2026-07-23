@@ -1,0 +1,112 @@
+{
+  "subreddit": "vllm",
+  "model": "DeepSeek-R1-Distill-Qwen-7B-Q4_K_M",
+  "analyzed_at": "2026-07-22T16:23:16.189883",
+  "summary": {
+    "total_analyzed": 5,
+    "pain_points": 1
+  },
+  "pain_points_found": [
+    {
+      "type": "post",
+      "title": "How to fix CUDA Out of Memory error when serving Llama 3 70B across 2x RTX 4090s?",
+      "author": "ai_dev_99",
+      "url": "https://reddit.com/r/vllm/comments/vllm_3",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "General Developer Feedback",
+        "problem_statement": "{\n  \"has_pain_point",
+        "severity": "Moderate",
+        "startup_opportunity": "Explore dedicated tooling in this area.",
+        "reasoning": ""
+      }
+    }
+  ],
+  "posts": [
+    {
+      "post_id": "vllm_1",
+      "title": "Poisoned prefix-cache and MTP state causes tool calls to fail with XML garbage",
+      "author": "Afraid-Yoghurt6731",
+      "url": "https://reddit.com/r/vllm/comments/vllm_1",
+      "selftext": "Just learned the hard way that long-running vllm can accumulate POISONED prefix-cache/MTP state: tool calls derail into mask-token/XML garbage for specific prompt prefixes while other prompts stay clean.",
+      "permalink": "/r/vllm/comments/vllm_1",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "General Developer Feedback",
+        "problem_statement": "",
+        "severity": "Moderate",
+        "startup_opportunity": "Explore dedicated tooling in this area.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "vllm_2",
+      "title": "DS V4 on single b300: only 770 tok/s batched in vLLM. Why is throughput so low?",
+      "author": "Moreh",
+      "url": "https://reddit.com/r/vllm/comments/vllm_2",
+      "selftext": "Running DeepSeek-V4 for offline batch processing. Best I get is 770 output tok/s at batch 256. deep_gemm_mega_moe errors on single GPU requiring expert parallel. Is there a fast MoE backend on single GPU?",
+      "permalink": "/r/vllm/comments/vllm_2",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "General Developer Feedback",
+        "problem_statement": "",
+        "severity": "Moderate",
+        "startup_opportunity": "Explore dedicated tooling in this area.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "vllm_3",
+      "title": "How to fix CUDA Out of Memory error when serving Llama 3 70B across 2x RTX 4090s?",
+      "author": "ai_dev_99",
+      "url": "https://reddit.com/r/vllm/comments/vllm_3",
+      "selftext": "I keep hitting out of memory errors during peak concurrency when setting max_num_batched_tokens to 8192. Has anyone tuned tensor parallelism for this setup?",
+      "permalink": "/r/vllm/comments/vllm_3",
+      "analysis": {
+        "has_pain_point": true,
+        "pain_category": "General Developer Feedback",
+        "problem_statement": "{\n  \"has_pain_point",
+        "severity": "Moderate",
+        "startup_opportunity": "Explore dedicated tooling in this area.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "vllm_4",
+      "title": "Has anyone successfully configured vLLM inside Kaggle/Colab without dependency hell?",
+      "author": "Mysterious-Rope-6216",
+      "url": "https://reddit.com/r/vllm/comments/vllm_4",
+      "selftext": "I’ve been debugging over a week trying to run vLLM on cloud notebooks. PyTorch, CUDA, and vLLM dependency versions keep conflicting and failing during build.",
+      "permalink": "/r/vllm/comments/vllm_4",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "General Developer Feedback",
+        "problem_statement": "",
+        "severity": "Moderate",
+        "startup_opportunity": "Explore dedicated tooling in this area.",
+        "reasoning": ""
+      },
+      "comments": []
+    },
+    {
+      "post_id": "vllm_5",
+      "title": "Lack of real-time GPU health and KV cache metrics in vLLM dashboard",
+      "author": "devops_lead",
+      "url": "https://reddit.com/r/vllm/comments/vllm_5",
+      "selftext": "Default Prometheus metrics in vLLM don't give fine-grained visibility into per-request KV cache fragmentation or worker memory pressure until the node crashes.",
+      "permalink": "/r/vllm/comments/vllm_5",
+      "analysis": {
+        "has_pain_point": false,
+        "pain_category": "General Developer Feedback",
+        "problem_statement": "",
+        "severity": "Moderate",
+        "startup_opportunity": "Explore dedicated tooling in this area.",
+        "reasoning": ""
+      },
+      "comments": []
+    }
+  ]
+}
