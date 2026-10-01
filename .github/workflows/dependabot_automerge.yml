@@ -4,7 +4,7 @@ jobs:
     permissions:
       contents: write # required to merge the pull request
       pull-requests: write # required to enable auto-merge on the pull request
-    uses: praw-dev/.github/.github/workflows/dependabot_automerge.yml@68c4e3402dc6c829ac9a1a787a663baabd21388b # v1.7.0
+    uses: praw-dev/.github/.github/workflows/dependabot_automerge.yml@97050199f9773073e4360d798053b7fb342e4c1f # v1.11.0
 name: Dependabot automerge
 on:
   pull_request:
